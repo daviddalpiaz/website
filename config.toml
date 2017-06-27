@@ -20,16 +20,16 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "David Dalpiaz"
-  role = "Professor of Artificial Intelligence"
-  organization = "Stanford University"
-  organization_url = ""
+  role = "Lecturer of Statistics"
+  organization = "University of Illinois at Urbana-Champaign"
+  organization_url = "http://www.stat.illinois.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
+  email = "dalpiaz2@illinois.edu"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  office_hours = ""
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -165,19 +165,14 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 5
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
