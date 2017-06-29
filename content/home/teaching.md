@@ -14,14 +14,11 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
-
 I am a teaching instructor for the following courses at University X:
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+
+- STAT 212: Biostatistics
+- STAT 400: Statistics and Probability I
+- STAT 420: Methods of Applied Statistics
+- STAT 420: Statistical Modeling in `R`
+- STAT 432: Basics of Statistical Learning
