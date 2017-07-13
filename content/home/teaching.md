@@ -14,8 +14,7 @@ weight = 60
 
 +++
 
-I am a teaching instructor for the following courses at University X:
-
+I teach the following courses at the University of Illinois at Urbana-Champaign:
 
 - STAT 212: Biostatistics
 - STAT 400: Statistics and Probability I

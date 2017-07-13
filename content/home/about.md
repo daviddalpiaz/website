@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "Statistics Education",
     "Reproducible Research",
+    "#rstats",
     "Machine Learning"
   ]
 
