@@ -12,9 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Statistics Education",
+    "Reproducible Research",
+    "Machine Learning"
   ]
 
 # List your qualifications (such as academic degrees).
