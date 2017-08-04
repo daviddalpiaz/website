@@ -1,0 +1,52 @@
+---
+title: "David Dalpiaz"
+output:
+  html_document:
+    lib_dir: libs
+    self_contained: no
+---
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+***
+
+I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in the [Department of Statistics](http://www.stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/).
+
+- Office: 122B IH
+- Email: [dalpiaz2@illinois.edu](mailto:dalpiaz2@illinois.edu)
+- Phone: I have one, but you'll get a better and quicker response via email.
+
+***
+
+## Schedule
+
+- **Summer 2017:** I'm teaching online, so I have no set schedule. Your best bet for reaching me is through email. I will hold some advising specific office hours the week before class starts.
+- **Fall 2017:** I'll be teaching at 8:00 AM and 11:00 AM on M-W-F. Outside of my listed office hours (which are TBD) the best way to reach me is still email.
+
+***
+
+## Teaching
+
+- **STAT 400:** Statistics and Probability I [[Fall 2017](go.illinois.edu/stat400)]
+- **STAT 420:** Statistical Modeling in `R` [[Summer 2017](coursera.org/learn/stat-420/)]
+    - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
+- **STAT 432:** Basics of Statistical Learning [[Fall 2017](go.illinois.edu/stat432)]
+    - Covers the entireity of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
+
+***
+
+## "Blog"
+
+Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or informaiton for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
+
+- [How to Use Office Hours]()
+- [Letters of Recommendation]()
+- [Unknown Unknowns]()
+- [What **is** a Distribution?]()
+
+***
+
+## Misc Links
+
+- [GitHub](https://github.com/daviddalpiaz/)
+- [Last.fm](https://www.last.fm/user/daviddalpiaz)
