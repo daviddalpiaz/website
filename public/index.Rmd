@@ -20,17 +20,17 @@ I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in t
 
 ## Schedule
 
-- **Summer 2017:** I'm teaching online, so I have no set schedule. Your best bet for reaching me is through email. I will hold some advising specific office hours the week before class starts.
+- **Summer 2017:** I'm teaching online, so I have no set schedule. Your best bet for reaching me is through email. I will hold some advising specific office hours the week before class starts in the Fall.
 - **Fall 2017:** I'll be teaching at 8:00 AM and 11:00 AM on M-W-F. Outside of my listed office hours (which are TBD) the best way to reach me is still email.
 
 ***
 
 ## Teaching
 
-- **STAT 400:** Statistics and Probability I [[Fall 2017](go.illinois.edu/stat400)]
+- **STAT 400:** Statistics and Probability I [[Fall 2017](https://go.illinois.edu/stat400)]
 - **STAT 420:** Statistical Modeling in `R` [[Summer 2017](coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[Fall 2017](go.illinois.edu/stat432)]
+- **STAT 432:** Basics of Statistical Learning [[Fall 2017](https://go.illinois.edu/stat432)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
 
 ***
