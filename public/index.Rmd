@@ -39,6 +39,7 @@ I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in t
 
 Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
 
+- [Help! I'm Not Good with Computers]()
 - [How to Use Office Hours]()
 - [Letters of Recommendation]()
 - [Unknown Unknowns]()
