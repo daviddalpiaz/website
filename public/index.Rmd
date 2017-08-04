@@ -31,13 +31,13 @@ I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in t
 - **STAT 420:** Statistical Modeling in `R` [[Summer 2017](coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
 - **STAT 432:** Basics of Statistical Learning [[Fall 2017](go.illinois.edu/stat432)]
-    - Covers the entireity of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
+    - Covers the entirety of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
 
 ***
 
 ## "Blog"
 
-Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or informaiton for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
+Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
 
 - [How to Use Office Hours]()
 - [Letters of Recommendation]()
