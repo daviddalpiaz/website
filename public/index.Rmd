@@ -4,6 +4,7 @@ output:
   html_document:
     lib_dir: libs
     self_contained: no
+    theme: cosmo
 ---
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
