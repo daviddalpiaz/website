@@ -19,11 +19,14 @@ I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in t
 
 ***
 
-## Schedule
+## Fall 2017 Schedule
 
-- **Summer 2017:** I'm teaching online, so I have no set schedule. Your best bet for reaching me is through email. I will hold some advising specific office hours the week before class starts in the Fall.
-- **Fall 2017:** I'll be teaching at 8:00 AM and 11:00 AM on M-W-F. Outside of my listed office hours (which are TBD) the best way to reach me is still email.
+I'll be teaching at 8:00 AM and 11:00 AM on MWF. Outside of my listed office hours the best way to reach me is still email.
 
+- (Tentative) Office Hours
+    - Thursday: 9:00 AM - 11:45 AM
+    - Thursday: 1:00 PM - 2:00 PM
+    
 ***
 
 ## Teaching
@@ -40,11 +43,12 @@ I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in t
 
 Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
 
-- [Help! I'm Not Good with Computers]()
-- [How to Use Office Hours]()
-- [Letters of Recommendation]()
-- [Unknown Unknowns]()
-- [What **is** a Distribution?]()
+- [How to Use Office Hours](posts/office.html)
+- [Unknown Unknowns](posts/unknowns.html)
+
+<!-- - [Letters of Recommendation]() -->
+<!-- - [Help! I'm Not Good with Computers]() -->
+<!-- - [What **is** a Distribution?]() -->
 
 ***
 
