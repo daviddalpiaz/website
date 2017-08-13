@@ -32,7 +32,7 @@ I'll be teaching at 8:00 AM and 11:00 AM on MWF. Outside of my listed office hou
 ## Teaching
 
 - **STAT 400:** Statistics and Probability I [[Fall 2017](https://go.illinois.edu/stat400)]
-- **STAT 420:** Statistical Modeling in `R` [[Summer 2017](coursera.org/learn/stat-420/)]
+- **STAT 420:** Statistical Modeling in `R` [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
 - **STAT 432:** Basics of Statistical Learning [[Fall 2017](https://go.illinois.edu/stat432)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
