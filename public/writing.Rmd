@@ -8,7 +8,7 @@ output:
     css: style.css
     includes:
       in_header: "header.html"
-      before_body: "before.html"
+      before_body: "before_writing.html"
 ---
 
 ## Blog
