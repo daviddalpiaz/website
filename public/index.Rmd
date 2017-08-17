@@ -11,11 +11,11 @@ output:
       before_body: "before.html"
 ---
 
-Hello and welcome to my webzone. I'm currently a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) and [MS Academic Advisor](http://www.stat.illinois.edu/students/graduates.shtml) for the [Department of Statistics](http://www.stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/).
+Hello and welcome to my webzone! I'm currently a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) and [MS Academic Advisor](http://www.stat.illinois.edu/students/graduates.shtml) for the [Department of Statistics](http://www.stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/).
 
 After a BS in Mathematics from the University of Illinois at Urbana-Champaign, I did a Phd in Statistics at the University of Illinois at Urbana-Champaign with [Ping Ma](http://malab.uga.edu/).
 
-You've probably noticed a theme. Yes, I've spent a lot of time at UIUC. [I'm still mad we don't use UIUC anymore.](https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names)
+You've probably noticed a theme. Yes, I've spent a lot of time at UIUC. [I'm still mad we don't use UIUC anymore.](https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names) Oh well. Go Illini!
 
 <!-- - [GitHub](https://github.com/daviddalpiaz/) -->
 <!-- - [Last.fm](https://www.last.fm/user/daviddalpiaz) -->
