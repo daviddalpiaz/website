@@ -1,0 +1,33 @@
+---
+title: "Home | David Dalpiaz"
+output:
+  html_document:
+    lib_dir: libs
+    self_contained: no
+    theme: cosmo
+    css: style.css
+    includes:
+      in_header: "header.html"
+      before_body: "before.html"
+---
+
+## Blog
+
+Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
+
+- [How to Use Office Hours](posts/office.html)
+- [Unknown Unknowns](posts/unknowns.html)
+
+<!-- - [Letters of Recommendation]() -->
+<!-- - [Help! I'm Not Good with Computers]() -->
+<!-- - [What **is** a Distribution?]() -->
+
+<!-- ## Papers -->
+
+<!-- - Sun, X., **Dalpiaz, D.**, Wu, D., Liu, J. S., Zhong, W., and Ma, P.(2016) [Statistical inference for time course RNA-Seq data using a negative binomial mixed-effect model](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1180-9), BMC Bioinformatics, DOI: 10.1186/s12859-016-1180-9. -->
+<!-- - **Dalpiaz, D.**, He, X., and Ma, P. (2013) [Bias correction in RNA-Seq short-read counts using penalized regression](http://publish.illinois.edu/pingma/files/2012/12/DalpiazHeMaStatBio12.pdf), Statistics in Biosciences, 5(1), 88-99. -->
+
+## Books and Notes
+
+- [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/)
+- [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)

@@ -1,0 +1,13 @@
+.title.toc-ignore {
+  display: none;
+}
+
+.realtitle {
+  font-size: 500%;
+}
+
+body .main-container {
+ max-width: 750px;
+ margin-left: auto;
+ margin-right: auto;
+}

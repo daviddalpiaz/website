@@ -1,58 +1,21 @@
 ---
-title: "David Dalpiaz"
+title: "Home | David Dalpiaz"
 output:
   html_document:
     lib_dir: libs
     self_contained: no
     theme: cosmo
-    include:
-      in_header: header.html
+    css: style.css
+    includes:
+      in_header: "header.html"
+      before_body: "before.html"
 ---
 
-***
+Hello and welcome to my webzone. I'm currently a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) and [MS Academic Advisor](http://www.stat.illinois.edu/students/graduates.shtml) for the [Department of Statistics](http://www.stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/).
 
-I'm a [Lecturer](http://www.stat.illinois.edu/people/faculty/dalpiaz.shtml) in the [Department of Statistics](http://www.stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/).
+After a BS in Mathematics from the University of Illinois at Urbana-Champaign, I did a Phd in Statistics at the University of Illinois at Urbana-Champaign with [Ping Ma](http://malab.uga.edu/).
 
-- Office: 122B IH
-- Email: [dalpiaz2@illinois.edu](mailto:dalpiaz2@illinois.edu)
-- Phone: I have one, but you'll get a better and quicker response via email.
+You've probably noticed a theme. Yes, I've spent a lot of time at UIUC. [I'm still mad we don't use UIUC anymore.](https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names)
 
-***
-
-## Fall 2017 Schedule
-
-I'll be teaching at 8:00 AM and 11:00 AM on MWF. Outside of my listed office hours the best way to reach me is still email.
-
-- (Tentative) Office Hours
-    - Wednesday: 12:30 PM - 1:30 PM
-    - Thursday: 1:00 PM - 3:00 PM
-    
-***
-
-## Teaching
-
-- **STAT 400:** Statistics and Probability I [[Fall 2017](https://go.illinois.edu/stat400)]
-- **STAT 420:** Statistical Modeling in `R` [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
-    - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[Fall 2017](https://go.illinois.edu/stat430)]
-    - Covers the entirety of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
-
-***
-
-## "Blog"
-
-Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
-
-- [How to Use Office Hours](posts/office.html)
-- [Unknown Unknowns](posts/unknowns.html)
-
-<!-- - [Letters of Recommendation]() -->
-<!-- - [Help! I'm Not Good with Computers]() -->
-<!-- - [What **is** a Distribution?]() -->
-
-***
-
-## Misc Links
-
-- [GitHub](https://github.com/daviddalpiaz/)
-- [Last.fm](https://www.last.fm/user/daviddalpiaz)
+<!-- - [GitHub](https://github.com/daviddalpiaz/) -->
+<!-- - [Last.fm](https://www.last.fm/user/daviddalpiaz) -->
