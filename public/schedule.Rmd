@@ -1,5 +1,5 @@
 ---
-title: "Home | David Dalpiaz"
+title: "Schedule | David Dalpiaz"
 output:
   html_document:
     lib_dir: libs
