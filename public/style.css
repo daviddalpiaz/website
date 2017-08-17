@@ -13,6 +13,10 @@ body .main-container {
 }
 
 h1.realtitle {
-  padding-top: 0px;
   margin-top: 4px;
+}
+
+.creatednav {
+  padding-right: 5px;
+  padding-left: 5px;
 }
