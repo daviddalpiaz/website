@@ -5,7 +5,6 @@ output:
     lib_dir: libs
     self_contained: no
     theme: cosmo
-    css: style.css
     includes:
       in_header: "header_posts.html"
       before_body: "before_posts.html"
@@ -13,7 +12,7 @@ output:
 
 # Unknown Unknowns
 
-Checking a symbolic link for css
+Testing css
 
 <!-- United States Secretary of Defense Donald Rumsfeld, February 12, 2002: -->
 
