@@ -11,23 +11,22 @@ output:
       before_body: "before_writing.html"
 ---
 
-## Blog
-
-Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly.
-
-- [How to Use Office Hours](posts/office.html)
-- [Unknown Unknowns](posts/unknowns.html)
-
-<!-- - [Letters of Recommendation]() -->
-<!-- - [Help! I'm Not Good with Computers]() -->
-<!-- - [What **is** a Distribution?]() -->
-
-<!-- ## Papers -->
-
-<!-- - Sun, X., **Dalpiaz, D.**, Wu, D., Liu, J. S., Zhong, W., and Ma, P.(2016) [Statistical inference for time course RNA-Seq data using a negative binomial mixed-effect model](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1180-9), BMC Bioinformatics, DOI: 10.1186/s12859-016-1180-9. -->
-<!-- - **Dalpiaz, D.**, He, X., and Ma, P. (2013) [Bias correction in RNA-Seq short-read counts using penalized regression](http://publish.illinois.edu/pingma/files/2012/12/DalpiazHeMaStatBio12.pdf), Statistics in Biosciences, 5(1), 88-99. -->
 
 ## Books and Notes
 
 - [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/)
+    - Still a work in progress, but the content coverage is more or less solidified. Provides an introduction to both `R` and regression modeling for students with undergraduate experience in probability and statistics. Currently in use for [STAT 420](https://courses.illinois.edu/schedule/2018/spring/STAT/420) both in-person and online at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/) and [Computer Science](https://cs.illinois.edu/).
 - [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Currently undergoing considerable changes and developments. Originally intended to be supplemental notes to [ISL](http://www-bcf.usc.edu/~gareth/ISL/) in order to provide additional `R` code and `rmarkdown` examples, the text is starting to become a complete reference text for [STAT 432 - Basics of Statistical Learning](https://daviddalpiaz.github.io/stat430fa17/) at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/). Target audience is advanced undergraduate students in statistics with previous experience with `R` and regression. 
+
+
+<!-- ## Blog -->
+
+<!-- Maybe someday I'll make this site into a proper blog, but for now, I'll just collect various things I've written here. They'll mostly be advice or information for students in statistics courses. Things that if I write them down, I won't have to repeat constantly. -->
+
+<!-- - [How to Use Office Hours](posts/office.html) -->
+<!-- - [Unknown Unknowns](posts/unknowns.html) -->
+<!-- - [Letters of Recommendation]() -->
+<!-- - [Help! I'm Not Good with Computers]() -->
+<!-- - [What **is** a Distribution?]() -->
+
