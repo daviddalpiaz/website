@@ -1,0 +1,14 @@
+---
+title: "Talks | David Dalpiaz"
+output:
+  html_document:
+    lib_dir: libs
+    self_contained: no
+    theme: cosmo
+    css: style.css
+    includes:
+      in_header: "header.html"
+      before_body: "before.html"
+---
+
+- [Teaching to Learn: Statistics in Data Science](files/osu_11_20_2017.pdf) - Ohio State University, November 20, 2017
