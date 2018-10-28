@@ -8,9 +8,8 @@ output:
     css: style.css
     includes:
       in_header: "header.html"
-      before_body: "before_writing.html"
+      before_body: "before.html"
 ---
-
 
 ## Books and Notes
 

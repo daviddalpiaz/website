@@ -1,4 +1,4 @@
-thickness = 10
+thickness = 5
 dev.off()
 par(bg = NA) 
 plot(
