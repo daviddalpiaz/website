@@ -13,7 +13,8 @@ output:
 
 ## Ohio State University
 
-- **STAT 3202:** Introduction to Statistical Inference for Data Analytics [[**Autumn 2018**](https://daviddalpiaz.github.io/stat3202-au18//)]
+- **STAT 3202:** Introduction to Statistical Inference for Data Analytics [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18//)]
+- **STAT 4194:** Data Analytics Capstone [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)]
 
 ## University of Illinois 
 
