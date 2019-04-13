@@ -11,7 +11,7 @@ output:
       before_body: "before.html"
 ---
 
-For the **Spring 2018** semester I will be teaching:
+For the **Spring 2019** semester I will be teaching:
 
 - **STAT 3202:** Tuesday and Thursday, 8:00 AM - 9:20 AM
 - **STAT 4194:** Tuesday and Thursday, 12:45 PM - 2:35 PM

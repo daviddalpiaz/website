@@ -4,7 +4,7 @@ output:
   html_document:
     lib_dir: libs
     self_contained: no
-    theme: cosmo
+    theme: yeti
     css: style.css
     includes:
       in_header: "header.html"
@@ -15,8 +15,65 @@ Hello and welcome to my webzone! I'm currently an [Associated Assistant Professo
 
 After a BS in Mathematics from the [University of Illinois at Urbana-Champaign](https://illinois.edu/), I did a Phd in [Statistics](https://stat.illinois.edu/) at the University of Illinois at Urbana-Champaign with [Ping Ma](http://malab.uga.edu/). I then spent four years as a Visiting Assistant Professor, then Lecturer and MS Academic Advisor, at the University of Illinois at Urbana-Champaign. I am now an [Adjunct Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for the Department of Statistics at the University of Illinois where my course [Statistical Modeling in `R`](https://daviddalpiaz.github.io/appliedstats/) is part of the online [Master of Computer Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science). Yes, I spent a lot of time at UIUC. [I’m still mad they don’t use UIUC anymore.](https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names) Oh well. Go Illini!
 
+***
+
+## Contact
+
+The two best ways to reach me are by email or in person. I am currently without an office phone, but you would get a much faster response via email anyway.
+
+- Office: 114 Pomerene Hall
+- Email: [dalpiaz.14@osu.edu](mailto:dalpiaz.14@osu.edu)
+
 Other places you can find me:
 
 - [GitHub](https://github.com/daviddalpiaz/)
 - [Reddit](https://www.reddit.com/user/daviddalpiaz)
 <!-- - [Last.fm](https://www.last.fm/user/daviddalpiaz) -->
+
+***
+
+## Schedule
+
+For the **Spring 2019** semester I will be teaching:
+
+- **STAT 3202:** Tuesday and Thursday, 8:00 AM - 9:20 AM
+- **STAT 4194:** Tuesday and Thursday, 12:45 PM - 2:35 PM
+
+Outside of my listed office hours, the best way to reach me is [email](contact.html).
+
+### Office Hours
+
+- **Wednesday:** 10:00 AM - 11:00 AM
+- **Thursday:** 5:00 PM - 6:00 PM
+
+Currently, all office hours are "open" office hours, meaning you can stop by for class questions, or really anything at all, but questions about class will be given priority.
+
+If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) Preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email.
+
+***
+
+## Teaching
+
+### Ohio State University
+
+- **STAT 3202:** Introduction to Statistical Inference for Data Analytics [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18//)]
+- **STAT 4194:** Data Analytics Capstone [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)]
+
+### University of Illinois 
+
+- **STAT 400:** Statistics and Probability I [[Spring 2018](https://daviddalpiaz.github.io/stat400sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat400fa17/)]
+- **STAT 420:** Statistical Modeling in `R` [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
+    - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
+- **STAT 432:** Basics of Statistical Learning [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
+    - Covers the entirety of [An Introduction to Statistical Learning with Applications in `R`](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using `R` to perform statistical learning techniques.
+
+***
+
+## Writing
+
+- [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/)
+    - Still a work in progress, but the content coverage is more or less solidified. Provides an introduction to both `R` and regression modeling for students with undergraduate experience in probability and statistics. Currently in use for [STAT 420](https://courses.illinois.edu/schedule/2018/spring/STAT/420) both in-person and online at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/) and [Computer Science](https://cs.illinois.edu/).
+- [`R` for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+    - Currently undergoing considerable changes and developments. Originally intended to be supplemental notes to [ISL](http://www-bcf.usc.edu/~gareth/ISL/) in order to provide additional `R` code and `rmarkdown` examples, the text is starting to become a complete reference text for [STAT 432 - Basics of Statistical Learning](https://daviddalpiaz.github.io/stat430fa17/) at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/). Target audience is advanced undergraduate students in statistics with previous experience with `R` and regression. 
+
+***
