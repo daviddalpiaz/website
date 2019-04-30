@@ -57,8 +57,8 @@ If you need to schedule a meeting outside of these times, please send an email s
 
 ### Ohio State University
 
-- **STAT 3202:** Introduction to Statistical Inference for Data Analytics [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18//)]
-- **STAT 4194:** Data Analytics Capstone [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)]
+- **STAT 3202:** Introduction to Statistical Inference for Data Analytics [[**Spring 2019**](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18/)]
+- **STAT 4194:** Data Analytics Capstone [[**Spring 2019**](https://daviddalpiaz.github.io/stat4194-sp19/)]
 
 ### University of Illinois 
 
