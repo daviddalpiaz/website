@@ -12,13 +12,13 @@ body .main-container {
  margin-right: auto;
 }
 
-h1.realtitle {
-  margin-top: 4px;
-}
-
 .creatednav {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+p, li, h1, h2, h3 {
+  color: #ffffff;
 }
 
 a {
@@ -27,4 +27,8 @@ a {
 
 body {
   background: #000000;
+}
+
+h1.realtitle {
+  margin-top: 4px;
 }

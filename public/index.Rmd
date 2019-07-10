@@ -2,9 +2,10 @@
 title: "Home | David Dalpiaz"
 output:
   html_document:
-    lib_dir: libs
     self_contained: no
-    theme: darkly
+    theme: null
+    highlight: null
+    mathjax: null
     css: style.css
     includes:
       in_header: "header.html"
