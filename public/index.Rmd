@@ -4,7 +4,7 @@ output:
   html_document:
     lib_dir: libs
     self_contained: no
-    theme: darkly
+    # theme: darkly
     css: style.css
     includes:
       in_header: "header.html"
