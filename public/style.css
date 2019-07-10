@@ -4,12 +4,20 @@
 
 .realtitle {
   font-size: 500%;
+  margin-bottom: 0;
 }
 
-body .main-container {
+body {
  max-width: 750px;
  margin-left: auto;
  margin-right: auto;
+ display: block;
+}
+
+img {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .creatednav {
@@ -19,10 +27,17 @@ body .main-container {
 
 p, li, h1, h2, h3 {
   color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
 }
 
 a {
   color: #888888;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 body {
@@ -31,4 +46,16 @@ body {
 
 h1.realtitle {
   margin-top: 4px;
+}
+
+h3 {
+  font-size: 150%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 175%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
