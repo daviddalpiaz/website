@@ -19,6 +19,8 @@ After a BS in Mathematics from the [University of Illinois at Urbana-Champaign](
 
 ## Contact
 
+***
+
 The two best ways to reach me are by email or in person. I am currently without an office phone, but you would get a much faster response via email anyway.
 
 - Office: 114 Pomerene Hall
@@ -35,6 +37,8 @@ Other places you can find me:
 
 ## Schedule
 
+***
+
 For the **Spring 2019** semester I will be teaching:
 
 - **STAT 3202:** Tuesday and Thursday, 8:00 AM - 9:20 AM
@@ -43,6 +47,8 @@ For the **Spring 2019** semester I will be teaching:
 Outside of my listed office hours, the best way to reach me is [email](contact.html).
 
 ### Office Hours
+
+***
 
 - **Wednesday:** 10:00 AM - 11:00 AM
 - **Thursday:** 5:00 PM - 6:00 PM
@@ -54,6 +60,8 @@ If you need to schedule a meeting outside of these times, please send an email s
 ***
 
 ## Teaching
+
+***
 
 ### Ohio State University
 
@@ -71,6 +79,8 @@ If you need to schedule a meeting outside of these times, please send an email s
 ***
 
 ## Writing
+
+***
 
 - [Applied Statistics with `R`](https://daviddalpiaz.github.io/appliedstats/)
     - Still a work in progress, but the content coverage is more or less solidified. Provides an introduction to both `R` and regression modeling for students with undergraduate experience in probability and statistics. Currently in use for [STAT 420](https://courses.illinois.edu/schedule/2018/spring/STAT/420) both in-person and online at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/) and [Computer Science](https://cs.illinois.edu/).
