@@ -16,7 +16,7 @@ output:
 
 Hello and welcome to my webzone! 
 
-I am currently an [Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for the [Department of Statistics](https://stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/).
+I am currently a [Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for the [Department of Statistics](https://stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/).
 
 After a BS in [Mathematics](https://math.illinois.edu/) at Illinois, I completed a PhD in Statistics at the Illinois with [Ping Ma](http://malab.uga.edu/). I then spent four years as a Visiting Assistant Professor, then Lecturer and MS Academic Advisor for Statistics @ Illinois.
 
