@@ -20,7 +20,10 @@ png("public/wordmark.png", width = 1000, height = 400)
 make_normal_plot()
 dev.off()
 
-
+dev.off()
+png("public/wordmark-favicon.png", width = 700, height = 500)
+make_normal_plot(thickness = 7)
+dev.off()
 
 
 
