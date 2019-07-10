@@ -7,6 +7,11 @@
   margin-bottom: 0;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 body {
  max-width: 750px;
  margin-left: auto;
@@ -16,8 +21,7 @@ body {
 
 img {
   max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
 }
 
 .creatednav {
