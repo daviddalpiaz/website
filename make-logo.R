@@ -10,9 +10,9 @@ make_normal_plot = function(thickness = 7) {
     axes = FALSE,
     frame.plot = FALSE
   )
-  curve(dnorm(x, mean = 6, sd = sqrt(0.5)), col = "#666666", add = TRUE, lwd = thickness, n = 10000)
-  curve(dnorm(x, mean = 5, sd = sqrt(1)), col = "#888888", add = TRUE, lwd = thickness, n = 10000)
-  curve(dnorm(x, mean = 4, sd = sqrt(2)), col = "#999999", add = TRUE, lwd = thickness, n = 10000)
+  curve(dnorm(x, mean = 6, sd = sqrt(0.5)), col = "#000000", add = TRUE, lwd = thickness, n = 10000)
+  curve(dnorm(x, mean = 5, sd = sqrt(1)), col = "#006600", add = TRUE, lwd = thickness, n = 10000)
+  curve(dnorm(x, mean = 4, sd = sqrt(2)), col = "#888888", add = TRUE, lwd = thickness, n = 10000)
 }
 
 dev.off()
