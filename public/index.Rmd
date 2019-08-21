@@ -18,7 +18,7 @@ Hello and welcome to my webzone!
 
 I am currently a [Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for the [Department of Statistics](https://stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/).
 
-After a BS in [Mathematics](https://math.illinois.edu/) at Illinois, I completed a PhD in Statistics at the Illinois with [Ping Ma](http://malab.uga.edu/). I then spent four years as a Visiting Assistant Professor, then Lecturer and MS Academic Advisor for Statistics @ Illinois.
+After a BS in [Mathematics](https://math.illinois.edu/) at Illinois, I completed a PhD in Statistics at Illinois with [Ping Ma](http://malab.uga.edu/). I then spent four years as a Visiting Assistant Professor, then Lecturer and MS Academic Advisor for Statistics @ Illinois.
 
 I recently spent a year as an [Associated Assistant Professor](https://stat.osu.edu/people/dalpiaz.14) and [Data Analytics Program Specialist](https://data-analytics.osu.edu/) for the [Department of Statistics](https://stat.osu.edu/) at [**The** Ohio State University](https://www.osu.edu/). Go Bucks? While away from Illinois, I was an [Adjunct Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for Statistics @ Illinois where my course [Statistical Modeling in R](http://stat420.org) is part of the online [Master of Computer Science in Data Science](https://www.coursera.org/degrees/masters-in-computer-data-science). 
 
