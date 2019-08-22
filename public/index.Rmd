@@ -14,6 +14,16 @@ output:
       before_body: "before.html"
 ---
 
+<center>
+  <h3>
+    <a class="creatednav" href="#contact">Contact</a> 
+    <a class="creatednav" href="#schedule">Schedule</a> 
+    <a class="creatednav" href="#teaching">Teaching</a> 
+    <a class="creatednav" href="#writing">Writing</a>
+  </h3>
+</center>
+<hr>
+
 Hello and welcome to my webzone! 
 
 I am currently a [Teaching Assistant Professor](https://stat.illinois.edu/directory/profile/dalpiaz2) for the [Department of Statistics](https://stat.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/).
@@ -85,5 +95,11 @@ If you need to schedule a meeting outside of these times, please send an email s
     - Still a work in progress, but the content coverage is more or less solidified. Provides an introduction to both R and regression modeling for students with undergraduate experience in probability and statistics. Currently in use for [STAT 420](https://courses.illinois.edu/schedule/2018/spring/STAT/420) both in-person and online at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/) and [Computer Science](https://cs.illinois.edu/).
 - [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
     - Currently undergoing considerable changes and developments. Originally intended to be supplemental notes to [ISL](http://www-bcf.usc.edu/~gareth/ISL/) in order to provide additional R code and R Markdown examples, the text is starting to become a complete reference text for [STAT 432 - Basics of Statistical Learning](http://stat432.org) at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/). Target audience is advanced undergraduate students in statistics with previous experience with R and regression. 
+
+### Notebooks
+
+This idea is stolen from both [Alex Reinhart](https://www.refsmmat.com/) and [Cosma Shalizi](http://bactra.org/notebooks/). My current use case might be slightly different than theirs. They also have clearly written a lot more.
+
+- [The Extended Syllabus](extended-syllabus.html)
 
 ***
