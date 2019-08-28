@@ -77,7 +77,7 @@ If you need to schedule a meeting outside of these times, please send an email s
 - **STAT 400:** Statistics and Probability I [[Spring 2018](https://daviddalpiaz.github.io/stat400sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat400fa17/)]
 - **STAT 420:** Statistical Modeling in R [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[**Fall 2019**](http://stat432.org/fall-2019)] [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
+- **STAT 432:** Basics of Statistical Learning [[**Fall 2019**](http://fall-2019.stat432.org/)] [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using R to perform statistical learning techniques.
 
 ### Ohio State University
