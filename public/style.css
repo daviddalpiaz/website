@@ -7,6 +7,11 @@
   margin-bottom: 0;
 }
 
+.realtitle2 {
+  font-size: 300%;
+  margin-bottom: 0;
+}
+
 .responsive {
   width: 100%;
   height: auto;
@@ -28,7 +33,7 @@ img {
 }
 
 .creatednav {
-  font-size: 125%;
+  font-size: 110%;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -75,6 +80,18 @@ body {
   margin-top: 50px;
 }
 
+/*
+
 li {
   margin: 7px 0;
+}
+
+*/
+
+table, th, td {
+  font-family: 'Lato', sans-serif;
+} 
+
+strong {
+  font-weight: 400
 }

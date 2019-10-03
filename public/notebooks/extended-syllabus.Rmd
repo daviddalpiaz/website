@@ -4,7 +4,7 @@ lang: en
 output:
   html_document:
     self_contained: no
-    theme: null
+    lib_dir: libs
     highlight: null
     css: style.css
     lang: en
