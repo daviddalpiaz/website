@@ -89,4 +89,5 @@ If you need to schedule a meeting outside of these times, please send an email s
 
 This idea is stolen from both [Alex Reinhart](https://www.refsmmat.com/) and [Cosma Shalizi](http://bactra.org/notebooks/). My current use case might be slightly different than theirs. They also have clearly written a lot more.
 
-- [The Extended Syllabus](notebook-extended-syllabus.html)
+- [The Extended Syllabus](extended-syllabus.html)
+- [Letters of Recommendation](letters.html)
