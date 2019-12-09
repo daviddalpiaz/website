@@ -362,27 +362,689 @@ summary {
 
 
 
-<h1 class="title toc-ignore">A Quick dplyr Tutorial</h1>
+<h1 class="title toc-ignore">A Quick <code>dplyr</code> Tutorial</h1>
 <h4 class="author">David Dalpiaz</h4>
+<h4 class="date">RMarkdown: <a href="dplyr.Rmd"><code>dplyr.Rmd</code></a></h4>
 
 </div>
 
 
 <hr />
+<pre class="r"><code>library(&quot;tidyverse&quot;)</code></pre>
+<hr />
+<div id="dplyr-information" class="section level2">
+<h2><code>dplyr</code> Information</h2>
+</div>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<p>dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges:</p>
+<ul>
+<li><code>mutate()</code> adds new variables that are functions of existing variables.</li>
+<li><code>select()</code> picks variables based on their names.</li>
+<li><code>filter()</code> picks cases based on their values.</li>
+<li><code>summarise()</code> reduces multiple values down to a single summary.</li>
+<li><code>arrange()</code> changes the ordering of the rows.</li>
+</ul>
+<p>These all combine naturally with <code>group_by()</code> which allows you to perform any operation “by group”. You can learn more about them in <code>vignette(&quot;dplyr&quot;)</code>.</p>
+</div>
+<div id="additional-resources" class="section level2">
+<h2>Additional Resources</h2>
+<ul>
+<li><a href="https://www.tidyverse.org/packages/">The <code>tidyverse</code> Website</a></li>
+<li><a href="https://dplyr.tidyverse.org/"><code>dplyr</code> Website</a></li>
+<li><a href="https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf"><code>dplyr</code> Cheat Sheet</a></li>
+<li><a href="https://r4ds.had.co.nz/transform.html">R4DS: Data Transformation</a></li>
+<li><a href="https://r4ds.had.co.nz/pipes.html">R4DS: Pipes</a></li>
+</ul>
+<hr />
+</div>
+<div id="open-powerlifting-data" class="section level1">
+<h1>Open Powerlifting Data</h1>
+<ul>
+<li>Source: <a href="https://www.openpowerlifting.org/"><code>www.openpowerlifting.org</code></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Powerlifting">Wikipedia: Powerlifting</a></li>
+</ul>
+<pre class="r"><code>powerlifting = read_csv(&quot;http://daviddalpiaz.com/files/data/openpowerlifting-2019-12-04.csv.gz&quot;)</code></pre>
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AIJKGSXdl9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-</center>
-<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p3vR-OFazyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-</center>
-<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GAad3dG0Eoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wBUSXBhabrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </center>
 <hr />
-<p><a href="dplyr.Rmd"><code>dplyr.Rmd</code></a></p>
+<pre class="r"><code>skimr::skim(powerlifting)</code></pre>
+<table>
+<caption>Data summary</caption>
+<tbody>
+<tr class="odd">
+<td align="left">Name</td>
+<td align="left">powerlifting</td>
+</tr>
+<tr class="even">
+<td align="left">Number of rows</td>
+<td align="left">1685579</td>
+</tr>
+<tr class="odd">
+<td align="left">Number of columns</td>
+<td align="left">38</td>
+</tr>
+<tr class="even">
+<td align="left">_______________________</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Column type frequency:</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">character</td>
+<td align="left">14</td>
+</tr>
+<tr class="odd">
+<td align="left">Date</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">logical</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">numeric</td>
+<td align="left">22</td>
+</tr>
+<tr class="even">
+<td align="left">________________________</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Group variables</td>
+<td align="left">None</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: character</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">skim_variable</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="right">min</th>
+<th align="right">max</th>
+<th align="right">empty</th>
+<th align="right">n_unique</th>
+<th align="right">whitespace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Name</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">2</td>
+<td align="right">45</td>
+<td align="right">0</td>
+<td align="right">476575</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Sex</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="right">3</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">Event</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="right">7</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Equipment</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">3</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td align="right">5</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">AgeClass</td>
+<td align="right">721252</td>
+<td align="right">0.57</td>
+<td align="right">4</td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="right">16</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">BirthYearClass</td>
+<td align="right">839149</td>
+<td align="right">0.50</td>
+<td align="right">5</td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="right">7</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">Division</td>
+<td align="right">3964</td>
+<td align="right">1.00</td>
+<td align="right">1</td>
+<td align="right">37</td>
+<td align="right">0</td>
+<td align="right">3583</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">WeightClassKg</td>
+<td align="right">18140</td>
+<td align="right">0.99</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="right">252</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">Place</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="right">125</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Country</td>
+<td align="right">1188472</td>
+<td align="right">0.29</td>
+<td align="right">2</td>
+<td align="right">24</td>
+<td align="right">0</td>
+<td align="right">177</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">Federation</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">2</td>
+<td align="right">14</td>
+<td align="right">0</td>
+<td align="right">263</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">MeetCountry</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">2</td>
+<td align="right">22</td>
+<td align="right">0</td>
+<td align="right">102</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">MeetState</td>
+<td align="right">576839</td>
+<td align="right">0.66</td>
+<td align="right">2</td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="right">116</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">MeetName</td>
+<td align="right">0</td>
+<td align="right">1.00</td>
+<td align="right">1</td>
+<td align="right">155</td>
+<td align="right">0</td>
+<td align="right">14166</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: Date</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">skim_variable</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="left">min</th>
+<th align="left">max</th>
+<th align="left">median</th>
+<th align="right">n_unique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Date</td>
+<td align="right">15</td>
+<td align="right">1</td>
+<td align="left">1964-09-05</td>
+<td align="left">2019-12-01</td>
+<td align="left">2015-03-03</td>
+<td align="right">5984</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: logical</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">skim_variable</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="right">mean</th>
+<th align="left">count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tested</td>
+<td align="right">1685579</td>
+<td align="right">0</td>
+<td align="right">NaN</td>
+<td align="left">:</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Variable type: numeric</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">skim_variable</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="right">mean</th>
+<th align="right">sd</th>
+<th align="right">p0</th>
+<th align="right">p25</th>
+<th align="right">p50</th>
+<th align="right">p75</th>
+<th align="right">p100</th>
+<th align="left">hist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Age</td>
+<td align="right">758190</td>
+<td align="right">0.55</td>
+<td align="right">31.61</td>
+<td align="right">13.28</td>
+<td align="right">0.00</td>
+<td align="right">21.50</td>
+<td align="right">28.00</td>
+<td align="right">40.00</td>
+<td align="right">98.00</td>
+<td align="left">▃▇▃▁▁</td>
+</tr>
+<tr class="even">
+<td align="left">BodyweightKg</td>
+<td align="right">22790</td>
+<td align="right">0.99</td>
+<td align="right">84.39</td>
+<td align="right">22.95</td>
+<td align="right">15.10</td>
+<td align="right">67.13</td>
+<td align="right">82.10</td>
+<td align="right">99.25</td>
+<td align="right">484.00</td>
+<td align="left">▇▂▁▁▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Squat1Kg</td>
+<td align="right">1274583</td>
+<td align="right">0.24</td>
+<td align="right">113.44</td>
+<td align="right">145.42</td>
+<td align="right">-555.00</td>
+<td align="right">87.50</td>
+<td align="right">145.00</td>
+<td align="right">200.00</td>
+<td align="right">555.00</td>
+<td align="left">▁▂▃▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Squat2Kg</td>
+<td align="right">1279540</td>
+<td align="right">0.24</td>
+<td align="right">92.83</td>
+<td align="right">171.23</td>
+<td align="right">-580.00</td>
+<td align="right">70.00</td>
+<td align="right">145.00</td>
+<td align="right">205.00</td>
+<td align="right">577.50</td>
+<td align="left">▁▂▂▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Squat3Kg</td>
+<td align="right">1290977</td>
+<td align="right">0.23</td>
+<td align="right">31.77</td>
+<td align="right">198.23</td>
+<td align="right">-600.50</td>
+<td align="right">-165.00</td>
+<td align="right">110.00</td>
+<td align="right">192.50</td>
+<td align="right">560.00</td>
+<td align="left">▁▅▂▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Squat4Kg</td>
+<td align="right">1681089</td>
+<td align="right">0.00</td>
+<td align="right">68.57</td>
+<td align="right">192.47</td>
+<td align="right">-550.00</td>
+<td align="right">-110.00</td>
+<td align="right">130.50</td>
+<td align="right">200.00</td>
+<td align="right">505.50</td>
+<td align="left">▁▂▂▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Best3SquatKg</td>
+<td align="right">496596</td>
+<td align="right">0.71</td>
+<td align="right">175.11</td>
+<td align="right">69.14</td>
+<td align="right">-477.50</td>
+<td align="right">122.50</td>
+<td align="right">170.00</td>
+<td align="right">219.99</td>
+<td align="right">577.50</td>
+<td align="left">▁▁▆▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Bench1Kg</td>
+<td align="right">1063749</td>
+<td align="right">0.37</td>
+<td align="right">84.01</td>
+<td align="right">104.45</td>
+<td align="right">-502.50</td>
+<td align="right">57.50</td>
+<td align="right">105.00</td>
+<td align="right">145.00</td>
+<td align="right">467.50</td>
+<td align="left">▁▁▃▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Bench2Kg</td>
+<td align="right">1071693</td>
+<td align="right">0.36</td>
+<td align="right">55.28</td>
+<td align="right">129.65</td>
+<td align="right">-507.50</td>
+<td align="right">-50.00</td>
+<td align="right">95.00</td>
+<td align="right">145.00</td>
+<td align="right">487.50</td>
+<td align="left">▁▂▅▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Bench3Kg</td>
+<td align="right">1090473</td>
+<td align="right">0.35</td>
+<td align="right">-18.47</td>
+<td align="right">143.67</td>
+<td align="right">-575.00</td>
+<td align="right">-140.00</td>
+<td align="right">-60.00</td>
+<td align="right">117.50</td>
+<td align="right">478.54</td>
+<td align="left">▁▃▇▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Bench4Kg</td>
+<td align="right">1674033</td>
+<td align="right">0.01</td>
+<td align="right">18.99</td>
+<td align="right">166.82</td>
+<td align="right">-500.00</td>
+<td align="right">-130.50</td>
+<td align="right">72.50</td>
+<td align="right">155.00</td>
+<td align="right">487.61</td>
+<td align="left">▁▆▅▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Best3BenchKg</td>
+<td align="right">185537</td>
+<td align="right">0.89</td>
+<td align="right">118.09</td>
+<td align="right">54.54</td>
+<td align="right">-522.50</td>
+<td align="right">75.00</td>
+<td align="right">115.00</td>
+<td align="right">151.95</td>
+<td align="right">488.50</td>
+<td align="left">▁▁▃▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Deadlift1Kg</td>
+<td align="right">1232229</td>
+<td align="right">0.27</td>
+<td align="right">161.59</td>
+<td align="right">108.85</td>
+<td align="right">-461.00</td>
+<td align="right">125.00</td>
+<td align="right">180.00</td>
+<td align="right">225.00</td>
+<td align="right">450.00</td>
+<td align="left">▁▁▁▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">Deadlift2Kg</td>
+<td align="right">1241588</td>
+<td align="right">0.26</td>
+<td align="right">130.77</td>
+<td align="right">161.02</td>
+<td align="right">-470.00</td>
+<td align="right">115.00</td>
+<td align="right">177.50</td>
+<td align="right">230.00</td>
+<td align="right">460.40</td>
+<td align="left">▁▂▁▇▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Deadlift3Kg</td>
+<td align="right">1261457</td>
+<td align="right">0.25</td>
+<td align="right">15.10</td>
+<td align="right">213.96</td>
+<td align="right">-587.50</td>
+<td align="right">-210.00</td>
+<td align="right">117.50</td>
+<td align="right">205.00</td>
+<td align="right">457.50</td>
+<td align="left">▁▆▂▇▂</td>
+</tr>
+<tr class="even">
+<td align="left">Deadlift4Kg</td>
+<td align="right">1674342</td>
+<td align="right">0.01</td>
+<td align="right">72.83</td>
+<td align="right">194.22</td>
+<td align="right">-461.00</td>
+<td align="right">-125.00</td>
+<td align="right">142.88</td>
+<td align="right">207.50</td>
+<td align="right">418.00</td>
+<td align="left">▁▃▁▇▂</td>
+</tr>
+<tr class="odd">
+<td align="left">Best3DeadliftKg</td>
+<td align="right">423269</td>
+<td align="right">0.75</td>
+<td align="right">189.30</td>
+<td align="right">62.23</td>
+<td align="right">-410.00</td>
+<td align="right">140.60</td>
+<td align="right">188.24</td>
+<td align="right">235.00</td>
+<td align="right">585.00</td>
+<td align="left">▁▁▇▇▁</td>
+</tr>
+<tr class="even">
+<td align="left">TotalKg</td>
+<td align="right">124759</td>
+<td align="right">0.93</td>
+<td align="right">392.87</td>
+<td align="right">203.18</td>
+<td align="right">2.50</td>
+<td align="right">225.00</td>
+<td align="right">375.00</td>
+<td align="right">542.50</td>
+<td align="right">1407.50</td>
+<td align="left">▆▇▃▁▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Wilks</td>
+<td align="right">139048</td>
+<td align="right">0.92</td>
+<td align="right">284.85</td>
+<td align="right">125.07</td>
+<td align="right">1.47</td>
+<td align="right">177.57</td>
+<td align="right">304.15</td>
+<td align="right">374.73</td>
+<td align="right">793.33</td>
+<td align="left">▅▆▇▁▁</td>
+</tr>
+<tr class="even">
+<td align="left">McCulloch</td>
+<td align="right">139285</td>
+<td align="right">0.92</td>
+<td align="right">292.74</td>
+<td align="right">126.87</td>
+<td align="right">1.47</td>
+<td align="right">185.30</td>
+<td align="right">311.23</td>
+<td align="right">383.75</td>
+<td align="right">844.83</td>
+<td align="left">▅▇▇▁▁</td>
+</tr>
+<tr class="odd">
+<td align="left">Glossbrenner</td>
+<td align="right">139048</td>
+<td align="right">0.92</td>
+<td align="right">268.48</td>
+<td align="right">119.14</td>
+<td align="right">1.41</td>
+<td align="right">166.14</td>
+<td align="right">284.58</td>
+<td align="right">355.03</td>
+<td align="right">756.90</td>
+<td align="left">▅▇▇▁▁</td>
+</tr>
+<tr class="even">
+<td align="left">IPFPoints</td>
+<td align="right">176350</td>
+<td align="right">0.90</td>
+<td align="right">489.27</td>
+<td align="right">113.31</td>
+<td align="right">0.86</td>
+<td align="right">407.73</td>
+<td align="right">483.00</td>
+<td align="right">563.03</td>
+<td align="right">1245.93</td>
+<td align="left">▁▇▆▁▁</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="manipulating-rows-with-filter" class="section level1">
+<h1>Manipulating Rows with <code>filter()</code></h1>
+<ul>
+<li>How can we find results from IPF meets that use only “raw” equipment?</li>
+</ul>
+<pre class="r"><code>powerlifting %&gt;% 
+  filter(Federation == &quot;IPF&quot;, Equipment == &quot;Raw&quot;)</code></pre>
+<hr />
+</div>
+<div id="manipulating-columns-with-select" class="section level1">
+<h1>Manipulating Columns with <code>select()</code></h1>
+<ul>
+<li>How can we remove information about 4th attempts? (For raw lifters in the IPF.)</li>
+</ul>
+<pre class="r"><code>powerlifting %&gt;% 
+  filter(Federation == &quot;IPF&quot;, Equipment == &quot;Raw&quot;) %&gt;% 
+  select(-Squat4Kg, -Bench4Kg, -Deadlift4Kg)</code></pre>
+<pre class="r"><code>powerlifting %&gt;%
+  filter(Federation == &quot;IPF&quot;, Equipment == &quot;Raw&quot;) %&gt;% 
+  select(-contains(&quot;4Kg&quot;))</code></pre>
+<hr />
+</div>
+<div id="creating-columns-with-mutate" class="section level1">
+<h1>Creating Columns with <code>mutate()</code></h1>
+<ul>
+<li>How can add a variable about a lifter’s total to bodyweight ratio? (For raw lifters in the IPF.)</li>
+</ul>
+<pre class="r"><code>powerlifting %&gt;%
+  filter(Federation == &quot;IPF&quot;, Equipment == &quot;Raw&quot;) %&gt;% 
+  mutate(total_bw_ratio = TotalKg / BodyweightKg)</code></pre>
+<hr />
+</div>
+<div id="summarizing-data-with-summarise" class="section level1">
+<h1>Summarizing Data with <code>summarise()</code></h1>
+<ul>
+<li>How can we find the average best squat, best bench, and best deadlift by age class? (For male raw lifters in the IPF open division.)</li>
+</ul>
+<pre class="r"><code>powerlifting %&gt;%
+  filter(Federation == &quot;IPF&quot;, Equipment == &quot;Raw&quot;, 
+         Division == &quot;Open&quot;, Sex == &quot;M&quot;) %&gt;%
+  group_by(AgeClass) %&gt;%
+  summarise(ave_squat = mean(Best3SquatKg, na.rm = TRUE),
+            ave_bench = mean(Best3BenchKg, na.rm = TRUE),
+            ave_dead  = mean(Best3DeadliftKg, na.rm = TRUE))</code></pre>
+<hr />
+</div>
+<div id="reordering-data-with-arrange" class="section level1">
+<h1>Reordering Data with <code>arrange()</code></h1>
+<ul>
+<li>How can we find the best raw lifter in the database? (Who has the highest Wilks?)</li>
+</ul>
+<pre class="r"><code>powerlifting %&gt;% 
+  filter(Equipment == &quot;Raw&quot;) %&gt;% 
+  arrange(desc(Wilks))</code></pre>
+<hr />
+</div>
+<div id="tasks" class="section level1">
+<h1>Tasks</h1>
+<ul>
+<li>How much does single-ply equipment effect deadlift results?
+<ul>
+<li>Find all results from IPF competitions with squat, bench, and deadlift contested.</li>
+<li>Group by <code>Sex</code> and <code>Equipment</code></li>
+<li>Calculate mean and standard deviation of <code>Best3DeadliftKg</code> within these groups.</li>
+</ul></li>
+<li>Convert the entire dataset from kilograms to pounds. (Or just the raw IPF data so you can work with a smaller dataset.)</li>
+</ul>
+</div>
 
 
 
