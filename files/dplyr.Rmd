@@ -1,0 +1,25 @@
+---
+title: "A Quick dplyr Tutorial"
+author: "David Dalpiaz"
+output: html_document
+---
+
+***
+
+
+***
+
+[`dplyr.Rmd`](dplyr.Rmd)
+
+***
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/AIJKGSXdl9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/p3vR-OFazyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/GAad3dG0Eoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+***
+

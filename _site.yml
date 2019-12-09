@@ -1,4 +1,5 @@
 output_dir: "public"
+include: [dplyr.Rmd]
 output:
   html_document:
     highlight: null

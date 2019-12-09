@@ -1,0 +1,7 @@
+---
+title: "A Quick dplyr Tutorial"
+author: "David Dalpiaz"
+output: html_document
+---
+
+[`dplyr.Rmd`](dplyr.Rmd)
