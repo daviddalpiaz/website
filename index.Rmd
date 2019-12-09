@@ -91,3 +91,4 @@ This idea is stolen from both [Alex Reinhart](https://www.refsmmat.com/) and [Co
 
 - [The Extended Syllabus](extended-syllabus.html)
 - [Letters of Recommendation](letters.html)
+- [A Quick `dplyr` Tutorial](files/dplyr.html)
