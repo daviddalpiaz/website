@@ -8,13 +8,13 @@ lang: en
 ***
 
 - Published: Thursday, November 28, 2019
-- Updated: Wednesday, January 15, 2020
+- Updated: Thursday, February 13, 2020
 
 ***
 
 Hello!
 
-If you are reading this, you have requested a letter of recommendation. (Or for some weird reason you are reading my website.) Tentatively, I will do so, but I would like to make you aware of a set of policies that I adhere to when navigating the letter writing process. Please read all of the following carefully. Letter writing usually happens during breaks or the busy parts of the semester, so you will need to communicate effectively and quickly. Please keep email communications concise. Bullet points are better than paragraphs. When emailing:
+If you are reading this, you have requested a letter of recommendation. (Or for some weird reason you are reading my website.) Tentatively, I will do so, but I would like to make you aware of a set of policies that I adhere to when navigating the letter writing process. **Please read all of the following _carefully_.** Letter writing usually happens during breaks or the busy parts of the semester, so you will need to communicate effectively and quickly. Please keep email communications concise. Bullet points are better than paragraphs. When emailing:
 
 - Please use your Illinois account if you still have access.
 - Use the subject line: [Recommendation Request] - Your Name Here
@@ -27,12 +27,13 @@ Next, the most important thing you need to know: **I will only write about infor
 knitr::include_graphics("img/letters.png")
 ```
 
-In order for me to agree to write a letter, three conditions must be satisfied. 
+Also, unless we have directly worked together beyond a student-teacher relationships, a letter from me will likely not be individualized to specific program. Instead, I will use the same letter for all applications. If you have worked on an individual research project or served as course staff, you can expect a much more detailed letter that may be tailored to individual programs.
+
+Finally, in order for me to agree to write a letter, three conditions must be satisfied. (Exceptions are possible, but must be discussed **in person** well in advance of application time.)
 
 - You must have completed a course with me.
-  - It is possible to waive this requirement if you talk to me about it.
-- You must have received a grade of at least a B.
-  - However, if you obtained a B, this will likely mean you ranked towards the bottom of the course.
+- You must have received a grade of A or A+. 
+  - However note that obtaining a grade of A does not guarantee a high rank in the class.
 - I must be given at minimum two weeks notice. Earlier is better.
 
 If you have any questions about the above policies, you should come see me in person if at all possible. (**In reality, it would be best to ask me for a letter in person.**)
@@ -65,18 +66,21 @@ If you have read the above and would like to proceed, please read on.
 ### Things you need to know while adding me to applications:
 
 - When listing me as a reference, I expect you to fill in as much information as possible. See my Statistics Faculty page for any of that information: https://stat.illinois.edu/directory/profile/dalpiaz2
+  - If asked for a phone number, use: `(217) 333-2167`
 - You must waive your right to view the letter. This doesn't mean I'm going to write anything bad, I'm simply following the lead of other faculty in the department.
 - *Be aware that you do not need to complete your application to list me as a reference.* With that in mind, **please add me ASAP** so I can complete them whenever I have time.
-
 - Please attempt to send as many notifications emails in one group. Receiving all of these emails on the same day will help me track them.
 
 ### After I have been added to all of your applications, send an email letting me know that you have done so, with the following information:
 
 - Everything requested in the original email, except the school list should now be finalized.
+  - Assume that I will delete your original email after you send this email.
 
 ***
 
-Two closing thoughts:
+Some closing thoughts:
 
 - Deadlines are your responsibility, so you will want to keep in touch. Do not hesitate to send reminders.
+  - I often receive hundreds of notification emails about letters I need to submit. The probably of me missing one or forgetting something is **high**.
 - When this processes is completed, please share the results with me! I write so many letters, but rarely am I told about the result.
+- Apologies if these policies seem authoritarian and harsh. Given my difficulty denying letter requests, I often end up writing a lot of letters. There policies were created to become efficient enough to process as many letters as possible.
