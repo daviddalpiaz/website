@@ -27,7 +27,7 @@ Next, the most important thing you need to know: **I will only write about infor
 knitr::include_graphics("img/letters.png")
 ```
 
-Also, unless we have directly worked together beyond a student-teacher relationships, a letter from me will likely not be individualized to specific program. Instead, I will use the same letter for all applications. If you have worked on an individual research project or served as course staff, you can expect a much more detailed letter that may be tailored to individual programs.
+Also, unless we have directly worked together beyond a student-teacher relationships, a letter from me will likely not be individualized to specific programs. Instead, I will use the same letter for all applications. If you have worked on an individual research project or served as course staff, you can expect a much more detailed letter that may be tailored to individual programs.
 
 Finally, in order for me to agree to write a letter, three conditions must be satisfied. (Exceptions are possible, but must be discussed **in person** well in advance of application time.)
 
