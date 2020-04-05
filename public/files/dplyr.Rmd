@@ -70,15 +70,8 @@ skimr::skim(powerlifting)
 
 ```{r, eval = FALSE}
 powerlifting %>% 
-  filter(Federation == "IPF") %>% 
-  filter(Equipment == "Raw")
+  filter(Federation == "IPF", Equipment == "Raw")
 ```
-
-
-```{r}
-filter(filter(filter(filter(powerlifting, Federation == "IPF"), Equipment == "Raw"), AgeClass == "24-34"), filter(Sex == "M"))
-```
-
 
 ***
 
@@ -95,7 +88,7 @@ powerlifting %>%
 ```{r, eval = FALSE}
 powerlifting %>%
   filter(Federation == "IPF", Equipment == "Raw") %>% 
-  select(Name, Sex, Age, BodyweightKg, contains("Best"))
+  select(-contains("4Kg"))
 ```
 
 ***
@@ -107,8 +100,7 @@ powerlifting %>%
 ```{r, eval = FALSE}
 powerlifting %>%
   filter(Federation == "IPF", Equipment == "Raw") %>% 
-  mutate(total_bw_ratio = TotalKg / BodyweightKg) %>% 
-  View()
+  mutate(total_bw_ratio = TotalKg / BodyweightKg)
 ```
 
 ***
@@ -121,20 +113,11 @@ powerlifting %>%
 powerlifting %>%
   filter(Federation == "IPF", Equipment == "Raw", 
          Division == "Open", Sex == "M") %>%
-  # group_by(AgeClass) %>%
+  group_by(AgeClass) %>%
   summarise(ave_squat = mean(Best3SquatKg, na.rm = TRUE),
             ave_bench = mean(Best3BenchKg, na.rm = TRUE),
-            ave_dead  = mean(Best3DeadliftKg, na.rm = TRUE),
-            n = n())
+            ave_dead  = mean(Best3DeadliftKg, na.rm = TRUE))
 ```
-
-```{r}
-powerlifting %>%
-  filter(Federation == "IPF", Equipment == "Raw", 
-         Division == "Open", Sex == "M") %>%
-  filter(AgeClass == "55-59")
-```
-
 
 ***
 
@@ -156,47 +139,4 @@ powerlifting %>%
   - Find all results from IPF competitions with squat, bench, and deadlift contested.
   - Group by `Sex` and `Equipment`
   - Calculate mean and standard deviation of `Best3DeadliftKg` within these groups.
-  
-```{r}
-powerlifting %>% 
-  filter(Federation == "IPF", Event == "SBD") %>% 
-  group_by(Sex, Equipment, WeightClassKg) %>% 
-  summarise(avg_deadlift = mean(Best3DeadliftKg, na.rm = TRUE),
-            sd_deadlift = sd(Best3DeadliftKg, na.rm = TRUE)) %>% 
-  arrange(WeightClassKg)
-```
-
-  
 - Convert the entire dataset from kilograms to pounds. (Or just the raw IPF data so you can work with a smaller dataset.)
-
-```{r}
-kg_to_pounds = function(x) {
-  2.2 * x
-}
-```
-
-```{r}
-str_kg_to_lb = function(x) { 
-  n_letters = nchar(x)
-  substr(x, n_letters - 1, n_letters) = "lb"
-  
-  return(x)
-}
-```
-
-```{r}
-str_kg_to_lb("Hello World")
-```
-
-
-```{r}
-powerlifting %>% 
-  mutate(WeightClassKg = as.numeric(WeightClassKg)) %>% 
-  mutate_at(vars(contains("Kg")), kg_to_pounds) %>% 
-  rename_at(vars(contains("Kg")), str_kg_to_lb)
-```
-
-
-
-
-

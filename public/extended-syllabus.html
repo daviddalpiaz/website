@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" xml:lang="en">
+<html>
 
 <head>
 
@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="David Dalpiaz" />
 
 
-<title>The Extended Syllabus | David Dalpiaz</title>
+<title>The Extended Syllabus</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -164,31 +165,21 @@ summary {
 
 
 
-<br>
-<br>
-<center><img src="img/wordmark.png" alt="David Dalpiaz" class="responsive"></center>
-<hr>
-<center><h1 class="realtitle">David Dalpiaz</h1></center>
-<hr>
 
 <div class="fluid-row" id="header">
 
 
 
-<h1 class="title toc-ignore">The Extended Syllabus | David Dalpiaz</h1>
+<h1 class="title toc-ignore">The Extended Syllabus</h1>
+<h4 class="author"><a href="index.html">David Dalpiaz</a></h4>
 
 </div>
 
 
-<center>
-<h1>
-The Extended Syllabus
-</h1>
-</center>
 <hr />
 <ul>
-<li>Published: Thursday, August 22, 2019</li>
-<li>Updated: Thursday, August 22, 2019</li>
+<li><strong>Published:</strong> Thursday, August 22, 2019</li>
+<li><strong>Updated:</strong> Thursday, August 22, 2019</li>
 </ul>
 <hr />
 <p>The following are some of my thoughts on teaching and learning. These include some teaching philosophy, reasoning behind course policies, and general suggestions for student success.</p>
@@ -225,8 +216,10 @@ The Extended Syllabus
 <li>Luck</li>
 </ul>
 <p>That is,</p>
-<p><br /><span class="math display">grade = <em>f</em>(prior knowledge, effort, luck)</span><br /></p>
-<p>I don’t know precisely what that function <span class="math inline"><em>f</em></span> is, but I think the inputs and outputs are the correct variables. I think it is helpful for both parties involved, students and teachers, to think about what control they have over each of the inputs.</p>
+<p><span class="math display">\[
+\text{grade} = f(\text{prior knowledge}, \text{effort}, \text{luck})
+\]</span></p>
+<p>I don’t know precisely what that function <span class="math inline">\(f\)</span> is, but I think the inputs and outputs are the correct variables. I think it is helpful for both parties involved, students and teachers, to think about what control they have over each of the inputs.</p>
 <p>As students, you generally have very little control over <strong>prior knowledge</strong>. In many cases this amounts to taking a prerequisite course. (Hopefully you have!) While it would be great if you had full understanding of the material of any prerequisite course, I understand that there will be a wide variance among students. And even if I could assume that all students had a perfect mastery of a prerequisite course, there are certainly many other prior experiences that could prove helpful in a course. As a result, dealing with prior knowledge is mostly my responsibility. Often the best I can do is to simply be understanding of the fact that students have a wide variety of past experiences. Obviously I will do my best to help you review and recall important information from prerequisite courses. And I will always be available in office hours to help overcome any shortcomings stemming form some missing knowledge. (Within reason of course. As much as I would like to try, I can’t teach an entire prerequisite course during office hours.)</p>
 <p><strong>Effort</strong> is generally the input that students feel they have the most control over. However, I often feel that students believe that blinding putting forth effort will result in high marks. I think it is more appropriate to say that properly applied effort will lead to high marks. Grades aren’t given for effort, they given for mastery of materials, it’s just that you can’t master the material without the effort. Students generally find it difficult to understand where they should place their effort. In any particular course I will be happy to provide some concrete examples, but as a general heuristic, if you don’t find yourself “failing,” then you aren’t putting forth the correct type of effort. For example, reading the textbook to study for an exam might seem like you are putting forth effort, but in reality, this is not a good use of time. Reading the textbook is passive, and there isn’t really a way to fail. Instead, consider doing practice problems. (No cheating and looking at the solutions first.) Each problem you do is an opportunity to fail, thus identifying for yourself where you need to focus your time and energy. As an instructor, I do have some control over effort, mainly though the amount of homework, labs, exams, and projects that are assigned. I try best not to abuse this power, and try to keep these activities to a reasonable level. However, I do make an attempt to have at least one of these activities each week. Often consistent effort is better than sporadic bouts of heroic effort.</p>
 <p>I believe that the part of grades that students often ignore is <strong>luck</strong>. It may sound strange for an instructor to admit that luck influences a grade, but I do believe this is extremely important to acknowledge. Suppose Student A and Student B are equal in every conceivable way. The night before an exam, Student A studies for two hours, then sleeps for eight hours. Student B had set aside two hours to study, but at the last minute, a phone interview for an important job comes up. This ruins Student B’s plans for the day. Student B gets to the library later than planned and only gets in an hour of studying, then also gets home late and only manages seven hours of sleep. Student A performs better than Student B on the exam. Does Student A actually know the material better than Student B, or are they just lucky? You can probably think of a million little things like this. Uncertainty is a part of life. The only way for you to counteract situations like this is to be as prepared as possible as early as possible. It’s not always possible to study for an exam a week in advance, but if you plan to do all your studying the night before, you’re running a huge risk. While this might sound like a potentially unfair situation, and at first glance I agree, I am comforted by the statistical reality of the situation. By having enough (uncorrelated) assignments in a class, the signal will overcome the noise. More on this in a later section.</p>
@@ -384,6 +377,15 @@ $(document).ready(function () {
 <!-- code folding -->
 
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
 </html>

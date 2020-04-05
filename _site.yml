@@ -1,12 +1,12 @@
 output_dir: "public"
-include: [dplyr.Rmd]
+include: ["*.Rmd"]
 output:
   html_document:
-    highlight: null
-    mathjax: null
+    highlight: tango
     css: style.css
     lang: en
     includes:
       in_header: header.html
       before_body: before.html
       after_body: footer.html
+      
