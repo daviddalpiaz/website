@@ -2,7 +2,7 @@ output_dir: "public"
 include: ["*.Rmd"]
 output:
   html_document:
-    highlight: tango
+    highlight: default
     css: style.css
     lang: en
     includes:
