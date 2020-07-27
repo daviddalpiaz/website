@@ -61,3 +61,7 @@ h3 span {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
+
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-bottom: 6px;
+}
