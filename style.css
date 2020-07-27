@@ -55,3 +55,9 @@ h2 span {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
+
+h3 span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+}

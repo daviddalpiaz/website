@@ -33,15 +33,19 @@ You can also find me on [GitHub](https://github.com/daviddalpiaz/) and [Reddit](
 
 ***
 
-For the **Spring 2020** semester I am teaching: Online.
+For the **Fall 2020** semester I am teaching: Online.
 
 ### Office Hours
 
-My **Spring 2020** office hours for STAT 432 can be found in the [STAT 432 syllabus](https://spring-2020.stat432.org/syllabus.html).
+Due to health and safety concerns, all **Fall 2020** office hours will be held remotely. For STAT 432 and STAT 510 office hour schedules, please see the relevant syllabus. 
 
-Currently, all office hours are "open" office hours, meaning you can stop by for class questions, or really anything at all, but questions about class will be given priority.
+If you would like to schedule a non-course related meeting, please send an email suggesting two possible times, on two different days. During this global work from home experiment, I have a strong preference for afternoon meetings. Please also indicate a brief agenda for the meeting. If possible, I will try to resolve the issue immediately via email.
 
-If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) I have a preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email.
+<!-- My **Spring 2020** office hours for STAT 432 can be found in the [STAT 432 syllabus](https://spring-2020.stat432.org/syllabus.html). -->
+
+<!-- Currently, all office hours are "open" office hours, meaning you can stop by for class questions, or really anything at all, but questions about class will be given priority. -->
+
+<!-- If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) I have a preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email. -->
 
 ***
 
@@ -54,8 +58,9 @@ If you need to schedule a meeting outside of these times, please send an email s
 - **STAT 400:** Statistics and Probability I [[Spring 2018](https://daviddalpiaz.github.io/stat400sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat400fa17/)]
 - **STAT 420:** Statistical Modeling in R [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[**Spring 2020**](http://spring-2020.stat432.org/)] [[Fall 2019](http://fall-2019.stat432.org/)] [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
+- **STAT 432:** Basics of Statistical Learning [[**Fall 2020**](http://fall-2020.stat432.org/)] [[Spring 2020](http://spring-2020.stat432.org/)] [[Fall 2019](http://fall-2019.stat432.org/)] [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using R to perform statistical learning techniques.
+- **STAT 510:** Mathematical Statistics [[**Fall 2020**](http://math-stat.org/)]
 
 ### Ohio State University
 
