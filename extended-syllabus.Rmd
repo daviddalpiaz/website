@@ -66,17 +66,17 @@ I believe that the part of grades that students often ignore is **luck**. It may
 
 All of that said, with some careful planning and execution, I believe that grades generally reflect how well a student has learned.
 
-# Grades As Estimation
+## Grades As Estimation
 
 - This section will be updated later after we learn the necessary course material. The explanation here requires an understanding of some of the course concepts!
 
-# Grading Disputes
+## Grading Disputes
 
 Please do not view the grade dispute policy solely as an attempt to diminish discussion of grades. While it does create certain logistical advantages for the course staff, in reality, a large driver of this policy is to encourage students to evaluate their work against the given solution and to seek additional individualized feedback. The sooner this occurs, the greater the benefit.
 
 This policy will also help students keep better track of their grades. The grade "dispute" that actually occurs most often is a result of entry error! The course staff is human after all, and mistakes are most likely to occur when adding up points, or entering a grade into a computer. Fixing these makes earlier rather than later is best for everyone.
 
-# Email Communication
+## Email Communication
 
 Email is a blessing and a curse. Instant communication is wonderful, but often email is the wrong medium to have a productive conversation about course material. Asking questions about course material is always best done in-class. Students always roll they eyes when instructors say it, but it's true that if you have a question, it's very likely someone else has the same question. (An alternative here would be a message board if the class is large enough, but again, in-class is still the best option.) The next best place to ask a question, or if you need some more individualized feedback the best place to ask a question, is office hours. Instead of being limited to a single email replay (or letting an email thread drag on for hours or days) the feedback loop can continue immediately.
 
@@ -105,11 +105,11 @@ I've also found that students are overly polite in emails. I suppose it may be i
     Thanks,
     Your-name-here
 
-# Advice for Studying
+## Advice for Studying
 
 - TODO: Move specific advice from previous syllabi here. Generalize and expand.
 
-# Office Hours
+## Office Hours
 
 I have often found that student have not been taught how to best utilize office hours. Actually, worse yet, I find that many students don't even bother to consider using office hours! If that's you, please do stop by if you need some help.
 
@@ -119,7 +119,7 @@ When being questioned (for lack of a better phrase), please resort to using "I d
 
 - TODO: This section needs expanding.
 
-# Health
+## Health
 
 If you're reading this document, it is most likely the beginning of the semester, and you are feeling physically refreshed and mentally relaxed compared to the end of a semester. To have the most successful semester possible, you should strive to keep that feeling as long as possible. Please consider taking the time during the semester to stay happy and healthy. Three things that go a long way:
 
@@ -140,7 +140,7 @@ I understand that students live in dorms, and sometimes there are a lot of barri
 
 <!-- - TODO: write this section -->
 
-# Academic Integrity
+## Academic Integrity
 
 I genuinely enjoy my job. However, there is one part of the job that I truly loathe: dealing with academic misconduct. While I view assigning grades as a minor annoyance, at least the act of grading is coupled with providing student feedback, which is extremely important to learning. Dealing with academic misconduct is nothing but a time-sink that detracts from the goals of teaching. I offer students two pieces of advice:
 
@@ -149,7 +149,7 @@ I genuinely enjoy my job. However, there is one part of the job that I truly loa
 
 I certainly understand that there can be extreme pressures to obtain good grades. My hope is that instead of resorting to extreme measures such as academic misconduct, that instead, a student would seek help in office hours as early as possible.
 
-# Life Advice
+## Life Advice
 
 Life advice is in no short supply. Self-help books make up huge sections of bookstores. (Or at least they did when bookstores were still popular.) But in terms of general advice that is always applicable, one phrase has always stuck with me:
 
@@ -163,7 +163,7 @@ While I think this applies to accomplishing just about any goal in life, I think
 - **Don't Quit**: It's a long semester. There will likely be ups and downs. Don't let that affect your attitude or effort.
 - **Ask Questions**: You know what you don't know better than anyone else. Get your questions answered!
 
-# Unknown Unknowns
+## Unknown Unknowns
 
 > "Reports that say that something hasn't happened are always interesting to me, because as we know, [there are known knowns](https://en.wikipedia.org/wiki/There_are_known_knowns); there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don't know we don't know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones."
 >
@@ -177,10 +177,10 @@ The next stage comes after lectures or readings. At this stage you are beginning
 
 To move from a known unknown to a **known known** you have to engage in the course activities, in particular activities that generate feedback. You do practice problems then check the solutions. You turn-in a homework and get feedback from the grader. You come to office hours to get a specific question answered.
 
-# See One, Do One, Teach One
+## See One, Do One, Teach One
 
 [Much of surgery is taught via the "see one, do one, teach one" method.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4785880/) While this sounds terrifying from a patient perspective, I think they're on to something, in particular with the "do" and "teach" parts. The "do one" part aligns nicely with the idea of moving from a known unknown to a known known. (See above.) Having taught for a while now, I'm finding it increasingly true that you don't truly know something until you can explain it to someone else. I'm not suggesting that every student go out and become a professor so they can teach a subject in order to learn it, but if you see an opportunity to help explain something to a classmate, do it!
 
-# See Something, Say Something
+## See Something, Say Something
 
 I create a lot of my own course materials, however, I do not have an editor. Try as I might, proofing your own work is difficult, so typos slip though. Often, they are so obvious that no one let's me know about them. Don't do that! Send a quick email to let me know! (There's probably a typo in this document. Did you find any? Let me know!)

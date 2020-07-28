@@ -14,11 +14,7 @@ I recently spent a year as an [Associated Assistant Professor](https://stat.osu.
 
 But now I have returned to spend even more time at Illinois. Yes, I have spent a lot of time at UIUC. [I’m still mad they don’t use UIUC anymore.](https://en.wikipedia.org/wiki/List_of_the_oldest_currently_registered_Internet_domain_names) Oh well. Go Illini!
 
-***
-
 ## Contact
-
-***
 
 The best way to reach me is by email, which I check far too frequently. I have a phone, but honestly, I don't know the number and I respond faster to email anyway. 
 
@@ -27,11 +23,7 @@ The best way to reach me is by email, which I check far too frequently. I have a
 
 You can also find me on [GitHub](https://github.com/daviddalpiaz/) and [Reddit](https://www.reddit.com/user/daviddalpiaz).
 
-***
-
 ## Schedule
-
-***
 
 For the **Fall 2020** semester I am teaching: Online.
 
@@ -47,11 +39,7 @@ If you would like to schedule a non-course related meeting, please send an email
 
 <!-- If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) I have a preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email. -->
 
-***
-
 ## Teaching
-
-***
 
 ### University of Illinois 
 
@@ -67,11 +55,7 @@ If you would like to schedule a non-course related meeting, please send an email
 - **STAT 3202:** Introduction to Statistical Inference [[Spring 2019](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18/)]
 - **STAT 4194:** Data Analytics Capstone [[Spring 2019](https://daviddalpiaz.github.io/stat4194-sp19/)]
 
-***
-
 ## Writing
-
-***
 
 - [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/)
     - Still a work in progress, but the content coverage is more or less solidified. Provides an introduction to both R and regression modeling for students with undergraduate experience in probability and statistics. Currently in use for [STAT 420](https://courses.illinois.edu/schedule/2018/spring/STAT/420) both in-person and online at [UIUC](http://illinois.edu/) for the Departments of [Statistics](http://www.stat.illinois.edu/) and [Computer Science](https://cs.illinois.edu/).
