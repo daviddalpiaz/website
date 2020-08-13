@@ -70,3 +70,8 @@ h2, h3 {
   padding-bottom: .2em;
   border-bottom: 1px solid #eaecef;
 }
+
+.author {
+  text-indent: 10%;
+}
+
