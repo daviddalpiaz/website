@@ -7,12 +7,12 @@
 }
 
 a {
-  color: #A0A;
+  color: #209CEE;
   text-decoration: none;
 }
 
 a:hover {
-  color: #A0A;
+  color: #209CEE;
   text-decoration: underline;
 }
 
@@ -21,8 +21,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
-  line-height: 1.5;
-  font-size: 1.4rem;
+  line-height: 1.6;
+  font-size: 1.6rem;
   color: #222222;
   font-weight: 400;
   padding-right: 20px;
@@ -36,8 +36,8 @@ strong {
 }
 
 li {
-  line-height: 1.5;
-  font-size: 1.4rem;
+  line-height: 1.6;
+  font-size: 1.6rem;
 }
 
 .notes ul {
