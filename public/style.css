@@ -7,12 +7,12 @@
 }
 
 a {
-  color: #209CEE;
+  color: #0366d6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #209CEE;
+  color: #0366d6;
   text-decoration: underline;
 }
 
@@ -23,7 +23,7 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
   line-height: 1.6;
   font-size: 1.6rem;
-  color: #222222;
+  color: #24292e;
   font-weight: 400;
   padding-right: 20px;
   padding-left: 20px;
@@ -45,19 +45,19 @@ li {
 }
 
 .notes span {
-    color: #aaa;
+    color: #586069;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
 
 h2 span {
-    color: #aaa;
+    color: #586069;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
 
 h3 span {
-    color: #aaa;
+    color: #586069;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
