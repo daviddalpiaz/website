@@ -25,8 +25,8 @@ body {
   font-size: 1.6rem;
   color: #24292e;
   font-weight: 400;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
   padding-top: 100px;
   padding-bottom: 40px;
 }
@@ -81,14 +81,4 @@ h3 {
 
 .author {
   text-indent: 10%;
-}
-
-.test {
-  background-color: #F7F7F7;
-  border-radius: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  margin-top: 20px;
 }
