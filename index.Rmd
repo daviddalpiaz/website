@@ -39,6 +39,8 @@ If you would like to schedule a non-course related meeting, please send an email
 
 <!-- If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) I have a preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email. -->
 
+</div>
+
 ## Teaching
 
 ### University of Illinois 
