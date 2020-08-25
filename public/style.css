@@ -54,12 +54,14 @@ h2 span {
     color: #586069;
     font-family: Monaco, "Courier New", monospace;
     font-size: 70%;
+    text-align: right;
 }
 
 h3 span {
     color: #586069;
     font-family: Monaco, "Courier New", monospace;
     font-size: 70%;
+    text-align: right;
 }
 
 .h4, .h5, .h6, h4, h5, h6 {
