@@ -39,23 +39,21 @@ If you would like to schedule a non-course related meeting, please send an email
 
 <!-- If you need to schedule a meeting outside of these times, please send an email suggesting two possible times, on two different days. (A total of four suggested times.) I have a preference for time-slots directly adjacent to current office hours or directly after a class. Please also indicate a brief agenda for the meeting. If possible, I will also try to resolve the issue immediately via email. -->
 
-</div>
-
 ## Teaching
 
 ### University of Illinois 
 
-- **STAT 400:** Statistics and Probability I [[Spring 2018](https://daviddalpiaz.github.io/stat400sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat400fa17/)]
-- **STAT 420:** Statistical Modeling in R [[Summer 2017](https://www.coursera.org/learn/stat-420/)]
+- **STAT 400:** Statistics and Probability I [[sp-18](https://daviddalpiaz.github.io/stat400sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat400fa17/)]
+- **STAT 420:** Statistical Modeling in R [[su-17](https://www.coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[**Fall 2020**](http://fall-2020.stat432.org/)] [[Spring 2020](http://spring-2020.stat432.org/)] [[Fall 2019](http://fall-2019.stat432.org/)] [[Spring 2018](https://daviddalpiaz.github.io/stat432sp18/)] [[Fall 2017](https://daviddalpiaz.github.io/stat430fa17/)]
+- **STAT 432:** Basics of Statistical Learning [[**fa-20**](http://fall-2020.stat432.org/)] [[sp-20](http://spring-2020.stat432.org/)] [[fa-19](http://fall-2019.stat432.org/)] [[sp-18](https://daviddalpiaz.github.io/stat432sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat430fa17/)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using R to perform statistical learning techniques.
-- **STAT 510:** Mathematical Statistics [[**Fall 2020**](http://math-stat.org/)]
+- **STAT 510:** Mathematical Statistics [[**fa-20**](http://math-stat.org/)]
 
 ### Ohio State University
 
-- **STAT 3202:** Introduction to Statistical Inference [[Spring 2019](https://daviddalpiaz.github.io/stat3202-sp19//)] [[Autumn 2018](https://daviddalpiaz.github.io/stat3202-au18/)]
-- **STAT 4194:** Data Analytics Capstone [[Spring 2019](https://daviddalpiaz.github.io/stat4194-sp19/)]
+- **STAT 3202:** Introduction to Statistical Inference [[sp-19](https://daviddalpiaz.github.io/stat3202-sp19//)] [[fa-18](https://daviddalpiaz.github.io/stat3202-au18/)]
+- **STAT 4194:** Data Analytics Capstone [[sp-19](https://daviddalpiaz.github.io/stat4194-sp19/)]
 
 ## Writing
 
