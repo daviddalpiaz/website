@@ -1,12 +1,12 @@
+name: "David Dalpiaz"
 output_dir: "public"
-include: ["*.Rmd"]
+# include: ["*.Rmd"]
+lang: en
 output:
   html_document:
     highlight: default
     css: style.css
-    lang: en
     includes:
       in_header: header.html
       before_body: before.html
       after_body: footer.html
-      
