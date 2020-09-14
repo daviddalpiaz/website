@@ -82,3 +82,7 @@ h3 {
 .author {
   text-indent: 10%;
 }
+
+.footnotes li {
+  font-size: 1.3rem;
+}
