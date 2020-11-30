@@ -1,0 +1,15 @@
+---
+title: "Blog"
+---
+
+***
+
+This is a blog, but not a blog. Mostly it will be a collection of things that I've needed to write more than once in an email, especially for students. Dates listed are data of initial publication, but posts are routinely updated. Perhaps if I find myself generating enough content to make this a real blog, I'll make it a real blog.
+
+::: notes
+
+- <span>2020-08-18</span> » [Ten Simple Rules for Success in STAT 432](ten-rules-stat-432.html)
+- <span>2019-11-28</span> » [Letters of Recommendation](letters-of-recommendation.html)
+- <span>2019-08-22</span> » [The Extended Syllabus](extended-syllabus.html)
+
+:::

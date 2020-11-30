@@ -1,0 +1,13 @@
+---
+title: "Template"
+author: "[David Dalpiaz](index.html)"
+---
+
+***
+
+- **Published:** Saturday, August 29, 2020
+- **Updated:** `r format(file.mtime("template.Rmd"), "%A, %B %d, %Y")`
+
+***
+
+Text goes here.

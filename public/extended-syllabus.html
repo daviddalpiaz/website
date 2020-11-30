@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="David Dalpiaz" />
+
+
+<title>The Extended Syllabus</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<meta name="description" content="David Dalpiaz - Teaching Assistant Professor at the University of Illinois Urbana-Champaign (UIUC)">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+<li>
+  <a href="https://www.github.com/daviddalpiaz">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">The Extended Syllabus</h1>
+<h4 class="author"><a href="index.html">David Dalpiaz</a></h4>
+
+</div>
+
+
+<hr />
+<ul>
+<li><strong>Published:</strong> Thursday, August 22, 2019</li>
+<li><strong>Updated:</strong> Sunday, November 29, 2020</li>
+</ul>
+<hr />
+<p>The following are some of my thoughts on teaching and learning. These include some teaching philosophy, reasoning behind course policies, and general suggestions for student success.</p>
+<p>Perhaps you will find some of these thoughts useful. My hope is that by keeping some of this information in mind, we can have a successful semester learning from each other.</p>
+<p>Over time I will likely update this document to be better organized, better written, more general, and more useful. (It was hastily written for the first time for the an Autumn 2018 semester course at OSU. There may be some lingering references to Ohio. It is currently written with students as the intended audience.)</p>
+<div id="course-goals" class="section level2">
+<h2>Course Goals</h2>
+<p>In addition to the specific learning objectives of any course, I approach each class with three additional, more broad goals.</p>
+<p>After each class I teach, I hope that students have learned to…</p>
+<ul>
+<li>Be a better statistician.</li>
+<li>Be a better programmer.</li>
+<li>Be a better learner.</li>
+</ul>
+<p>That last item is the most important.</p>
+<!-- - TODO: This section needs expanding. -->
+</div>
+<div id="good-faith-and-trust" class="section level2">
+<h2>Good Faith and Trust</h2>
+<p>Often, when you first meet someone, you don’t necessarily trust them. Trust is something that is built over time.</p>
+<p>Unfortunately, this is a bit of a problem when a course is only a short, finite amount of time. For this reason, I believe it best that you assume that I am operating in good faith. I will extend the same courtesy in return.</p>
+<p>Essentially, we should quickly come to the agreement that we have the same goals. You want to learn the course material, and I want you to learn the course material. (I also have some additional goals outlined above, that hopefully you share as well.)</p>
+<p>Sometimes students have some additional, more short-term goals such as completing an assignment, or obtaining a desired grade. While I am sympathetic to these goals, they do not directly match mine. I hope to teach you well enough that you are able to complete your assignments. I hope to teach you well enough that you are able to obtain good grades. This difference is subtle, but important. If my goal was to simply have you complete all your assignments, I could just give you the answers. If my goal was for everyone in the class to get an A, I could simply give everyone an A. However if I did these things, I would be working against my goals of helping students learn.</p>
+</div>
+<div id="grades" class="section level2">
+<h2>Grades</h2>
+<p>In many ways grades are an unfortunate reality of the education system. I thought I disliked them as a student, but now as an instructor, my dislike has only grown. Alas, we exist in a system with grades, so we’ll have to make the most of it.</p>
+<p>This is simply my opinion, but I believe that grades are a function of roughly three things:</p>
+<ul>
+<li>Prior Knowledge</li>
+<li>Effort</li>
+<li>Luck</li>
+</ul>
+<p>That is,</p>
+<p><span class="math display">\[
+\text{grade} = f(\text{prior knowledge}, \text{effort}, \text{luck})
+\]</span></p>
+<p>I don’t know precisely what that function <span class="math inline">\(f\)</span> is, but I think the inputs and outputs are the correct variables. I think it is helpful for both parties involved, students and teachers, to think about what control they have over each of the inputs.</p>
+<p>As students, you generally have very little control over <strong>prior knowledge</strong>. In many cases this amounts to taking a prerequisite course. (Hopefully you have!) While it would be great if you had full understanding of the material of any prerequisite course, I understand that there will be a wide variance among students. And even if I could assume that all students had a perfect mastery of a prerequisite course, there are certainly many other prior experiences that could prove helpful in a course. As a result, dealing with prior knowledge is mostly my responsibility. Often the best I can do is to simply be understanding of the fact that students have a wide variety of past experiences. Obviously I will do my best to help you review and recall important information from prerequisite courses. And I will always be available in office hours to help overcome any shortcomings stemming form some missing knowledge. (Within reason of course. As much as I would like to try, I can’t teach an entire prerequisite course during office hours.)</p>
+<p><strong>Effort</strong> is generally the input that students feel they have the most control over. However, I often feel that students believe that blindly putting forth effort will result in high marks. I think it is more appropriate to say that properly applied effort will lead to high marks. Grades aren’t given for effort, they given for mastery of materials, it’s just that you can’t master the material without the effort. Students generally find it difficult to understand where they should place their effort. In any particular course I will be happy to provide some concrete examples, but as a general heuristic, if you don’t find yourself “failing,” then you aren’t putting forth the correct type of effort. For example, reading the textbook to study for an exam might seem like you are putting forth effort, but in reality, this is not a good use of time. Reading the textbook is passive, and there isn’t really a way to fail. Instead, consider doing practice problems. (No cheating and looking at the solutions first.) Each problem you do is an opportunity to fail, thus identifying for yourself where you need to focus your time and energy. As an instructor, I do have some control over effort, mainly though the amount of homework, labs, exams, and projects that are assigned. I try best not to abuse this power, and try to keep these activities to a reasonable level. However, I do make an attempt to have at least one of these activities each week. Often consistent effort is better than sporadic bouts of heroic effort.</p>
+<p>I believe that the part of grades that students often ignore is <strong>luck</strong>. It may sound strange for an instructor to acknowledge. that luck influences a grade, but I do believe this is extremely important. Suppose Student A and Student B are equal in every conceivable way. The night before an exam, Student A studies for two hours, then sleeps for eight hours. Student B had set aside two hours to study, but at the last minute, a phone interview for an important job comes up. This ruins Student B’s plans for the day. Student B gets to the library later than planned and only gets in an hour of studying, then also gets home late and only manages seven hours of sleep. Student A performs better than Student B on the exam. Does Student A actually know the material better than Student B, or are they just lucky? You can probably think of a million little things like this. Uncertainty is a part of life. The only way for you to counteract situations like this is to be as prepared as possible as early as possible. It’s not always possible to study for an exam a week in advance, but if you plan to do all your studying the night before, you’re running a huge risk. While this might sound like a potentially unfair situation, and at first glance I agree, I am comforted by the statistical reality of the situation. By having enough (uncorrelated) assignments in a class, the signal will overcome the noise. More on this in a later section.</p>
+<p>All of that said, with some careful planning and execution, I believe that grades generally reflect how well a student has learned.</p>
+</div>
+<div id="grades-as-estimation" class="section level2">
+<h2>Grades As Estimation</h2>
+<ul>
+<li>TODO: This section still needs to be written, but will explain a bit about how variability in grades exists, but is likely reasonably controlled.</li>
+</ul>
+</div>
+<div id="grading-disputes" class="section level2">
+<h2>Grading Disputes</h2>
+<p>I generally use a grade dispute policy with roughly four elements:</p>
+<ul>
+<li>You may not simply ask for a regrade.</li>
+<li>Any dispute must be backed by reasoning for the dispute, preferably in writing.</li>
+<li>By disputing any part of an assignment, you agree that the course staff can look for errors in your favor on other questions.</li>
+<li>All disputes must happen within a reasonable amount of time after a grade has been given.</li>
+</ul>
+<p>Please do not view the grade dispute policy solely as an attempt to diminish discussion of grades. While it does create certain logistical advantages for the course staff, in reality, a large driver of this policy is to encourage students to evaluate their work against the given solution and to seek additional individualized feedback. The sooner this occurs, the greater the benefit.</p>
+<p>This policy will also help students keep better track of their grades. The grade “dispute” that actually occurs most often is a result of entry error! The course staff is human after all, and mistakes are most likely to occur when adding up points, or entering a grade into a computer. Fixing these mistakes earlier rather than later is best for everyone.</p>
+</div>
+<div id="email-communication" class="section level2">
+<h2>Email Communication</h2>
+<p>Email is a blessing and a curse. Instant communication is wonderful, but often email is the wrong medium to have a productive conversation about course material. Asking questions about course material is always best done in-class. Students always roll they eyes when instructors say it, but it’s true that if you have a question, it’s very likely someone else has the same question. (An alternative here would be a message board if the class is large enough, but again, in-class is still the best option.) The next best place to ask a question, or if you need some more individualized feedback the best place to ask a question, is office hours. Instead of being limited to a single email replay (or letting an email thread drag on for hours or days) the feedback loop can continue immediately.</p>
+<!-- - TODO: Introduce the idea of "communication bandwidth." -->
+<p>That said, email is still useful. If you’re going to use it, you should at least use if effectively. There’s a running joke in academia that professors only read an email until they find a question. They then respond to that question and ignore the rest of the email. I won’t do this, but I do think it is helpful to assume that the person on the receiving end of an email will operate this way. By keeping this in mind, you will write a much more concise and easy to understand email.</p>
+<p>Some general tips:</p>
+<ul>
+<li><strong>Use your University supplied email for University business.</strong> This helps me know who you are!</li>
+<li>Use a short but informative subject line. For example: [STAT 3202] Project Dataset</li>
+<li>One topic, one email. If you have multiple things to discuss, and you anticipate followup replies, it is best to split them into two emails so that the threads do not get cluttered.</li>
+<li>Ask direct questions.</li>
+<li>If you’re asking multiple questions in one email, use a bulleted list.</li>
+<li>Don’t ask questions that are answered by reading the syllabus! If you do, you’ll probably get a reply that is simply a link to the syllabus! :)</li>
+</ul>
+<p>I’ve also found that students are overly polite in emails. I suppose it may be intimidating to email a professor, and you should try to match the style that the professor prefers. I view email for a course as a casual form of communication. Said another way, get to the point! Students often send an entire paragraph introducing themselves, but if you use your University email address, and add the course name in the subject, I will already know who you are. Here’s an example of a perfectly reasonable email:</p>
+<pre><code>Subject: [STAT 3202] Homework 3, Question 4, Typo
+
+Hi Dave,
+
+There seems to be a typo in Homework 3, Question 4. The problem says Poisson,
+but the given mass function is for a binomial. Which should we use?
+
+Thanks,
+Your-name-here</code></pre>
+<!-- ## Advice for Studying -->
+<!-- - TODO: Move specific advice from previous syllabi here. Generalize and expand. -->
+</div>
+<div id="office-hours" class="section level2">
+<h2>Office Hours</h2>
+<p>I have often found that student have not been taught how to best utilize office hours. Actually, worse yet, I find that many students don’t even bother to consider using office hours! If that’s you, please do stop by if you need some help.</p>
+<p>To understand how to best use office hours, it helps to understand my goal during office hours; helping students learn. To achieve this goal, it is first necessary to understand what a student does and does not know. This requires some back-and-forth, and I often end up asking more questions than I answer. Some students find this frustrating. Other students find this intimating. I’m understanding of both of these feelings, but please realize that we are working towards the same goal. By questioning you, I am not testing you, or trying to make you look bad. I’m trying to understand what I can do to help. I’m also trying to lead you down a path to solving a problem yourself.</p>
+<p>When being questioned (for lack of a better phrase), please resort to using “I don’t know” as an answer as little as possible. This doesn’t help the process. It is much more useful to give an incorrect answer so we can discuss why it is incorrect. Also, if you provide a correct answer, expect the follow-up question: “Why?” Being correct is good. Being correct with confidence is better.</p>
+<!-- - TODO: This section needs expanding. -->
+</div>
+<div id="health" class="section level2">
+<h2>Health</h2>
+<p>If you’re reading this document, it is most likely the beginning of the semester, and you are feeling physically refreshed and mentally relaxed compared to the end of a semester. To have the most successful semester possible, you should strive to keep that feeling as long as possible. Please consider taking the time during the semester to stay happy and healthy. Three things that go a long way:</p>
+<ul>
+<li>Diet</li>
+<li>Exercise</li>
+<li>Sleep</li>
+</ul>
+<p><strong>Diet:</strong> You don’t need to eat some sort of super strict diet, but maybe not pizza and beer every night. Try for some protein, fiber, and vegetables with every meal. Limit your sugar intake. Try not to eat right before bed. Drinks other than water, coffee, or tea are probably not a great idea.</p>
+<p><strong>Exercise:</strong> I’m blown away by the Recreational Sports facilities at OSU. Please don’t let them go to waste. (Note to UIUC students: I wrote this when I was at OSU. This statement still applies to UIUC, but I have to admit, the gyms at OSU are <em>very</em> nice.) But, “going to the gym” is not the only way to exercise! Walking is one of the best ways to exercise!</p>
+<p><strong>Sleep</strong>: Here are three simple keys to sleeping well: reduce light, reduce noise, and be regular. I understand that students live in dorms, and sometimes there are a lot of barriers to sleep. Don’t let noise be one of them. <a href="https://www.amazon.com/Macks-Ultra-Soft-Foam-Earplugs/dp/B0051U7W32/">Earplugs are very cheap and very effective</a>, if worn correctly. Also, install <a href="https://justgetflux.com/">f.lux</a> ASAP. Maybe limit caffeine intake to before noon.</p>
+<!-- - TODO: This section needs expanding. -->
+<!-- - TODO: Reference "Why We Sleep." -->
+<!-- # Facts versus Opinions -->
+<!-- - TODO: write this section -->
+</div>
+<div id="academic-integrity" class="section level2">
+<h2>Academic Integrity</h2>
+<p>I genuinely enjoy my job. However, there is one part of the job that I truly loathe: dealing with academic misconduct. While I view assigning grades as a minor annoyance, at least the act of grading is coupled with providing student feedback, which is extremely important to learning. Dealing with academic misconduct is nothing but a time-sink that detracts from the goals of teaching. I offer students two pieces of advice:</p>
+<ul>
+<li>Cheating is much easier to detect than you realize.</li>
+<li>If you feel like you might be operating in a gray area, you probably are.</li>
+</ul>
+<p>I certainly understand that there can be extreme pressures to obtain good grades. My hope is that instead of resorting to extreme measures such as academic misconduct, that instead, a student would seek help in office hours as early as possible.</p>
+</div>
+<div id="life-advice" class="section level2">
+<h2>Life Advice</h2>
+<p>Life advice is in no short supply. Self-help books make up huge sections of bookstores. (Or at least they did when bookstores were still popular.) But in terms of general advice that is always applicable, one phrase has always stuck with me:</p>
+<blockquote>
+<p>“Show Up, Don’t Quit, Ask Questions”</p>
+</blockquote>
+<p>I don’t know the source, but I first heard it from the a Strength and Conditioning coach named Dan John. (He claims to have stolen the idea, but can’t remember who he stole it from.)</p>
+<p>While I think this applies to accomplishing just about any goal in life, I think it is particularly applicable to academic success. Some brief explanations:</p>
+<ul>
+<li><strong>Show Up</strong>: “Showing up is half the battle.” If in addition to attending class, you extend this to doing homework, labs, etc, I think it might be 90% of the battle.</li>
+<li><strong>Don’t Quit</strong>: It’s a long semester. There will likely be ups and downs. Don’t let that affect your attitude or effort.</li>
+<li><strong>Ask Questions</strong>: You know what you don’t know better than anyone else. Get your questions answered!</li>
+</ul>
+</div>
+<div id="unknown-unknowns" class="section level2">
+<h2>Unknown Unknowns</h2>
+<blockquote>
+<p>“Reports that say that something hasn’t happened are always interesting to me, because as we know, <a href="https://en.wikipedia.org/wiki/There_are_known_knowns">there are known knowns</a>; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns – the ones we don’t know we don’t know. And if one looks throughout the history of our country and other free countries, it is the latter category that tend to be the difficult ones.”</p>
+<p>– Donald Rumsfeld, United States Secretary of Defense</p>
+</blockquote>
+<p>While the presence or lack thereof of weapons of mass destruction in Iraq isn’t particularly important to teaching, this response from <a href="https://www.youtube.com/watch?v=GiPe1OiKQuk">Donald Rumsfeld at a Department of Defense briefing</a> popularized the ideas of known knowns, known unknowns, and unknown unknowns. I find these classifications to be useful for thinking about learning.</p>
+<p>When you start a course, pretty much everything is an <strong>unknown unknown</strong>. In other words, at this stage of the course not only do you not know the material, but you also don’t know what material you need to know.</p>
+<p>The next stage comes after lectures or readings. At this stage you are beginning to acquire <strong>known unknowns</strong>. You’ve now been introduced to the materials, but you still do not know them. This is an important point. Attending lecture or reading a book are required for learning, but not truly where learning takes places. Would you want to take an exam based only on attending a couple lectures? Would you feel comfortable driving a car after watching a YouTube video about how to drive a car?</p>
+<p>To move from a known unknown to a <strong>known known</strong> you have to engage in the course activities, in particular activities that generate feedback. You do practice problems then check the solutions. You turn-in a homework and get feedback from the grader. You come to office hours to get a specific question answered. This step is much more important that the previous, but students often put too much emphasis on the previous.</p>
+</div>
+<div id="see-one-do-one-teach-one" class="section level2">
+<h2>See One, Do One, Teach One</h2>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4785880/">Much of surgery is taught via the “see one, do one, teach one” method.</a> While this sounds terrifying from a patient’s perspective, I think they’re on to something, in particular with the “do” and “teach” parts. The “do one” part aligns nicely with the idea of moving from a known unknown to a known known. (See above.) Having taught for a while now, I’m finding it increasingly true that you don’t truly know something until you can explain it to someone else. I’m not suggesting that every student go out and become a professor so they can teach a subject in order to learn it, but if you see an opportunity to help explain something to a classmate, do it!</p>
+</div>
+<div id="see-something-say-something" class="section level2">
+<h2>See Something, Say Something</h2>
+<p>I create a lot of my own course materials, however, I do not have an editor. Try as I might, proofing your own work is difficult, so typos slip though. Often, they are so obvious that no one let’s me know about them. Don’t do that! Send a quick email to let me know! There’s probably a typo in this document. Did you find any? Let me know!</p>
+</div>
+
+<hr>
+
+&copy; 2020 <strong><a href="https://daviddalpiaz.org">David Dalpiaz</a></strong>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

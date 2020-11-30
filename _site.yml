@@ -1,12 +1,23 @@
 name: "David Dalpiaz"
 output_dir: "public"
-# include: ["*.Rmd"]
 lang: en
+exclude: ["drafts"]
+navbar:
+  right:
+    - text: "Blog"
+      href: blog.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Contact"
+      href: contact.html
+    - icon: fa-github
+      href: https://www.github.com/daviddalpiaz
+    - icon: fa-home
+      href: index.html
 output:
   html_document:
     highlight: default
     css: style.css
     includes:
-      in_header: header.html
-      before_body: before.html
-      after_body: footer.html
+      in_header: html-header.html
+      after_body: html-footer.html
