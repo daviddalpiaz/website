@@ -10,19 +10,12 @@ author: "[David Dalpiaz](index.html)"
 
 ***
 
-<!-- **Effective November 26, 2020**, I will no longer be accepting letter requests for the next admission cycle. (So, let's say anything with a deadline before the end of the Spring 2021 semester.) Given the classes and number of students I teach, my letter writing output is already very high, but this cycle I have accepted a record number of letter requests that far exceeds my norm. I worry that if I continue to accept requests, I will be unable to fulfill my existing writing commitments in a timely manner. -->
-
-<!-- - *Do note that I will make an exception to this policy for any students that have worked with me in a direct and independent manner, in particular all former TAs and CAs.* -->
-<!-- - If you *contacted* me before November 26, you are still eligible.  -->
-
-<!-- *** -->
-
 Hello!
 
 If you are reading this, you have requested a letter of recommendation.^[Or for some weird reason you are reading my website.] Tentatively, I will do so, but I would like to make you aware of a set of policies that I adhere to when navigating the letter writing process. **Please read all of the following _carefully_.** Letter writing usually happens during breaks or the busy parts of the semester, so you will need to communicate effectively and quickly. Please keep email communications concise. Bullet points are better than paragraphs. When emailing:
 
 - Please use your Illinois account if you still have access.
-- Use the subject line: [Recommendation Request] - Your Name Here
+- Use the subject line: [Rec Letter] - Your Name Here
 
 First, you need to know a little bit about me. I am a Teaching Assistant Professor. This is a **non-tenure track position**, where I spend the majority of my time focused on teaching, as opposed to research. You need to know this because it (negatively) effects the strength of my letter. It also makes a letter from me less appropriate for PhD programs.
 
@@ -36,7 +29,7 @@ Also, unless we have directly worked together beyond a student-teacher relations
 
 Finally, in order for me to agree to write a letter, three conditions must be satisfied.^[Exceptions are possible if discussed **in person** well in advance of application time.]
 
-- You must have completed a course with me.
+- You must have *completed* a course with me.
 - You must have received a grade of A or A+. 
   - Note that obtaining a grade of A does not guarantee a high rank in the class.
 - You must give at least two weeks notice. Earlier is better.
@@ -45,49 +38,52 @@ If you have any questions about the above policies, you should come see me in pe
 
 If you have read the above and would like to proceed, please read on.^[Apologies if these policies seem authoritarian and harsh. Given my difficulty denying letter requests, I often end up writing a lot of letters. These policies were created to become efficient enough to process as many letters as possible.]
 
-## Email Number One
+## Email One: The Request
 
 After you have read the information above, send an email with the following information:
 
-- Confirmation that you agree to my terms and you would like me to write you a letter.
+- State the following: "I agree to the listed terms and would like to request a letter of recommendation."
 - State the following: "I agree that David Dalpiaz can release my grade information as a part of the letter writing process."
 - Your name.
   - Your full legal name.
   - Your preferred name. That is, the name you would like me to use.
   - Your preferred pronouns.
-- A (tentative) list of schools as a bulleted list. You should verify this information is correct. Whatever you write here, I might write into your letter. I will not proofread your work. Use exact, proper names. For example do not use "MS", use "Master of Science," or whatever the school calls the degree. Use full school names, for example do not use "UMich," use "University of Michigan." If you are applying to multiple programs at the same school, you should give each a separate bullet. You should list:
-  - Name of School (i.e. University of Illinois at Urbana-Champaign)
-    - Name of Program (i.e. Statistics)
-    - Name of Degree (i.e. Master of Science)
-    - **Deadline**
-- List of classes we have shared. You should list:
+- A list of classes we have shared. You must list:
   - Course number (i.e. STAT 400)
     - Full name of course (i.e. Statistics and Probability I)
     - Semester (i.e. Fall 2014)
     - Grade (i.e. A+)
-- (Optional) A photo of yourself. Sometimes it is helpful to put a face with a name. I've had a lot of students!
-- (Optional) A CV.
+- A list of any other experiences we have shared.
+- The number (or rough estimate of) the number of school you intend applying to.
+- (Optional) A photo of yourself. 
+  - Sometimes it is helpful to put a face with a name. I've had a lot of students!
 
-While adding my information to applications, please note:
+## Interlude: Start Your Applications
+
+If I agree to write for you after your initial email, it's time to add me as a reference to all of your applications. While adding my information to applications, please note:
 
 - When listing me as a reference, I expect you to fill in as much information as possible. See [my Statistics Faculty page](https://stat.illinois.edu/directory/profile/dalpiaz2) for any of that information.
-  - If asked for a phone number, use: `(217) 333-2167`
+  - My title is: Assistant Teaching Professor
+  - My address is: 725 South Wright Street, Champaign, IL, 61820
+  - My phone number is: `(217) 333-2167`
 - You must waive your right to view the letter. This doesn't mean I'm going to write anything bad, I'm simply following the lead of other faculty in the department.
 - *Be aware that you do not need to complete your application to list me as a reference.* With that in mind, **please add me ASAP** so I can complete them whenever I have time.
-- Please attempt to send as many notifications emails in one group. Receiving these emails on the same day will help me track them.
+- Please attempt to send as many notification emails in one group. Receiving these emails on the same day will help me track them.
 
-## Email Number Two
+## Email Two: The School List
 
-After I have been added as a reference to each of your applications, send an email letting me know that you have done so, with the following information:
+After you have added me to each of your applications, send me an email letting me know you have done so. In that email, re-list everything from Email One, as well as:
 
-- Everything requested in the original email which now includes a finalized school list.
-  - Assume that I will delete your original email after you send this email.
+- A finalized list of schools as a bulleted list. You should verify this information is correct. Whatever you write here, I might write into your letter. I will not proofread your work. Use exact, proper names. For example do not use "MS", use "Master of Science," or whatever the school calls the degree. Use full school names, for example do not use "UMich," use "University of Michigan." If you are applying to multiple programs at the same school, you should give each a separate bullet. You should list:
+  - Name of School (i.e. University of Illinois at Urbana-Champaign)
+    - Name of Program (i.e. Statistics)
+    - Name of Degree (i.e. Master of Science)
+    - **Deadline**
 
-## Follow-Up
+## Email Three: A Reminder
 
-Even after you've added me to all the applicants, and even after I've submitted them, you're not done!
+You may not hear from me after Email Two. I will likely file it away in a folder of many other letter of recommendation requests I have received so that I can batch process them on some weekend where I have time to do so. If I have not submitted a letter within a week of the deadline, it is your responsibility to send me a reminder email. Do not hesitate to send reminders. I often receive hundreds of notification emails about letters I need to submit. The probability of me missing one or forgetting something is **high**.
 
-- Deadlines are your responsibility, so you will want to keep in touch. Do not hesitate to send reminders.
-  - I often receive hundreds of notification emails about letters I need to submit. The probability of me missing one or forgetting something is **high**.
-  - If I have not submitted a letter a week before the deadline, you need to send me a reminder.
-- At the end of this process, please share the results with me! I write so many letters, but rarely am I told about the result.
+## Email Four: Follow-Up
+
+At the end of this process, please share the results with me! I write so many letters, but rarely am I told about the result. Also note that, in the past some students have been so kind as to attempt to thank me with a small gift. Please note that ethics rules prohibit me from accepting any such gifts, so I will need to decline any such offer. However, knowing that a student of mine was accepted to a graduate program is all the thanks I need. So please let me know the result of your application process!
