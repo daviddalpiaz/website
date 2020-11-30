@@ -1,0 +1,17 @@
+---
+title: "Template"
+author: "[David Dalpiaz](index.html)"
+---
+
+***
+
+- **Published:** Saturday, August 29, 2020
+- **Updated:** `r format(file.mtime("blogging-about-blogging.Rmd"), "%A, %B %d, %Y")`
+
+***
+
+- https://rakhim.org/honestly-undefined/19/
+- https://guzey.com/personal/why-have-a-blog/
+- note about always updating
+- more on why
+- what's missing? tags, comments, etc
