@@ -1,14 +1,9 @@
 ---
 title: "The Extended Syllabus"
-author: "[David Dalpiaz](index.html)"
+output:
+  html_document:
+    toc: true
 ---
-
-***
-
-- **Published:** Thursday, August 22, 2019
-- **Updated:** `r format(file.mtime("extended-syllabus.Rmd"), "%A, %B %d, %Y")`
-
-***
 
 The following are some of my thoughts on teaching and learning. These include some teaching philosophy, reasoning behind course policies, and general suggestions for student success.
 
@@ -191,3 +186,8 @@ To move from a known unknown to a **known known** you have to engage in the cour
 ## See Something, Say Something
 
 I create a lot of my own course materials, however, I do not have an editor. Try as I might, proofing your own work is difficult, so typos slip though. Often, they are so obvious that no one let's me know about them. Don't do that! Send a quick email to let me know! There's probably a typo in this document. Did you find any? Let me know!
+
+## Metadata {-}
+
+- **Published:** Thursday, August 22, 2019
+- **Updated:** `r format(file.mtime("extended-syllabus.Rmd"), "%A, %B %d, %Y")`

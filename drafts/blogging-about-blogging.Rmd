@@ -1,17 +1,23 @@
 ---
-title: "Template"
-author: "[David Dalpiaz](index.html)"
+title: "A Blog Post About Blogging"
+output:
+  html_document:
+    toc: true
 ---
 
-***
+Start of content goes here.
 
-- **Published:** Saturday, August 29, 2020
-- **Updated:** `r format(file.mtime("blogging-about-blogging.Rmd"), "%A, %B %d, %Y")`
-
-***
+## Header
 
 - https://rakhim.org/honestly-undefined/19/
 - https://guzey.com/personal/why-have-a-blog/
 - note about always updating
 - more on why
 - what's missing? tags, comments, etc
+
+## Metadata {-}
+
+- **Published:** Saturday, August 29, 2020
+- **Updated:** `r format(file.mtime("template.Rmd"), "%A, %B %d, %Y")`
+
+

@@ -1,5 +1,15 @@
 .title.toc-ignore {
   font-size: 400%;
+  padding-bottom: .2em;
+  border-bottom: 1px solid #eaecef;
+  padding-top: 5px;
+}
+
+#TOC {
+  padding-bottom: .2em;
+  border-bottom: 1px solid #eaecef;
+  padding-top: 5px;
+  margin-bottom: 30px;
 }
 
 .author {
@@ -31,8 +41,15 @@ body {
   padding-bottom: 40px;
 }
 
+.section {
+  padding-top: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #111;
+  padding-bottom: .2em;
+  border-bottom: 1px solid #eaecef;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -70,21 +87,6 @@ h3 span {
     font-family: Monaco, "Courier New", monospace;
     font-size: 50%;
     padding-left: 10px;
-}
-
-.h4, .h5, .h6, h4, h5, h6 {
-    margin-bottom: 8px;
-}
-
-h2 {
-  padding-bottom: .2em;
-  border-bottom: 1px solid #eaecef;
-}
-
-h3 {
-  padding-bottom: .2em;
-  border-bottom: 1px solid #eaecef;
-  padding-top: 5px;
 }
 
 .footnotes li {

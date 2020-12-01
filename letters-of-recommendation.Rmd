@@ -1,14 +1,9 @@
 ---
 title: "Letters of Recommendation"
-author: "[David Dalpiaz](index.html)"
+output:
+  html_document:
+    toc: true
 ---
-
-***
-
-- **Published:** Thursday, November 28, 2019
-- **Updated:** `r format(file.mtime("letters-of-recommendation.Rmd"), "%A, %B %d, %Y")`
-
-***
 
 Hello!
 
@@ -91,3 +86,8 @@ At the end of this process, please share the results with me! I write so many le
 <!-- ## TODO -->
 
 <!-- - http://svmiller.com/for-students/letters-of-recommendation/ -->
+
+## Metadata {-}
+
+- **Published:** Thursday, November 28, 2019
+- **Updated:** `r format(file.mtime("letters-of-recommendation.Rmd"), "%A, %B %d, %Y")`

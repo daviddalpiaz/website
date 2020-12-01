@@ -2,8 +2,6 @@
 title: "Teaching"
 ---
 
-***
-
 ## University of Illinois 
 
 - **STAT 400:** Statistics and Probability I [[sp-18](https://daviddalpiaz.github.io/stat400sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat400fa17/)]
