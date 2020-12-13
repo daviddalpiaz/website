@@ -39,6 +39,7 @@ body {
   padding-left: 5px;
   padding-top: 100px;
   padding-bottom: 40px;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -93,4 +94,8 @@ h3 span {
 
 .footnotes li {
   font-size: 1.3rem;
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, liberation mono, courier new, monospace;
 }
