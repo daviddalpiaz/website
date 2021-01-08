@@ -99,3 +99,19 @@ h3 span {
 code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, liberation mono, courier new, monospace;
 }
+
+
+
+.navbar {
+  background-color: #FFFFFF;
+}
+.navbar .navbar-brand {
+  color: #0366d6;
+}
+.navbar .navbar-nav>li>a {
+  color: #0366d6;
+}
+.navbar .navbar-nav>.active>a {
+  background-color: #FFFFFF;
+  color: #333;
+}
