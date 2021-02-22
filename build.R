@@ -1,0 +1,5 @@
+blog_rmds_sub = list.files("blog", full.names = TRUE)
+blog_rmds_main = list.files("blog", full.names = FALSE)
+file.copy(from = blog_rmds_sub,to = blog_rmds_main)
+rmarkdown::render_site(encoding = 'UTF-8')
+file.remove(blog_rmds_main)

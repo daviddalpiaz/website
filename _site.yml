@@ -1,7 +1,7 @@
 name: "David Dalpiaz"
 output_dir: "public"
 lang: en
-exclude: ["drafts"]
+exclude: ["drafts", "blog", "build.R", "build.sh"]
 navbar:
   right:
     - text: "Blog"
