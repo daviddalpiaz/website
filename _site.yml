@@ -10,7 +10,7 @@ navbar:
       href: teaching.html
     - text: "Contact"
       href: contact.html
-    - icon: fa-github
+    - icon: fab fa-github
       href: https://www.github.com/daviddalpiaz
     - icon: fa-home
       href: index.html
