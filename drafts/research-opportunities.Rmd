@@ -5,13 +5,6 @@ output:
     toc: true
 ---
 
-***
-
-- **Published:** Tuesday, August 18, 2020
-- **Updated:** `r format(file.mtime("research-opportunities.Rmd"), "%A, %B %d, %Y")`
-
-***
-
 I often receive emails from students asking: "Do you currently have any research opportunities available?"
 
 - **Short answer:** "No."
@@ -33,8 +26,7 @@ I often receive emails from students asking: "Do you currently have any research
 
 - what did charlie do?
 
-
-## Metadata {-}
+***
 
 - **Published:** Saturday, August 29, 2020
 - **Updated:** `r format(file.mtime("template.Rmd"), "%A, %B %d, %Y")`

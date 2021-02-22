@@ -5,12 +5,6 @@ output:
     toc: true
 ---
 
-**Published:** Thursday, November 28, 2019
-
-**Updated:** `r format(file.mtime("letters-of-recommendation.Rmd"), "%A, %B %d, %Y")`
-
-***
-
 **Effective December 23, 2020, I will no longer be accepting letter requests for the next admission cycle, that is, any application with a deadline before the end of the Spring 2021 semester. Given the classes and number of students I teach, my letter writing output is already very high, but this cycle I have accepted a record number of letter requests that far exceeds my norm. I worry that if I continue to accept requests, I will be unable to fulfill my existing writing commitments in a timely manner.** 
 
 - *Do note that I will make an exception to this policy for any students that have worked with me in a direct and independent manner, in particular all former TAs and CAs.*

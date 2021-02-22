@@ -7,9 +7,9 @@ title: "Teaching"
 - **STAT 400:** Statistics and Probability I [[sp-18](https://daviddalpiaz.github.io/stat400sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat400fa17/)]
 - **STAT 420:** Statistical Modeling in R [[su-17](https://www.coursera.org/learn/stat-420/)]
     - Taught as part of the Master of [Computer Science](https://cs.illinois.edu/) in Data Science program in collaboration with [Coursera](https://www.coursera.org/degrees/masters-in-computer-data-science). I currently maintain an open-source textbook, [Applied Statistics with R](https://daviddalpiaz.github.io/appliedstats/) for use with the course. Soon to partially be released as public MOOCs on the Coursera platform.
-- **STAT 432:** Basics of Statistical Learning [[**fa-20**](http://fall-2020.stat432.org/)] [[sp-20](http://spring-2020.stat432.org/)] [[fa-19](http://fall-2019.stat432.org/)] [[sp-18](https://daviddalpiaz.github.io/stat432sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat430fa17/)]
+- **STAT 432:** Basics of Statistical Learning [[**sp-21**](http://stat432.org/)] [[fa-20](http://fall-2020.stat432.org/)] [[sp-20](http://spring-2020.stat432.org/)] [[fa-19](http://fall-2019.stat432.org/)] [[sp-18](https://daviddalpiaz.github.io/stat432sp18/)] [[fa-17](https://daviddalpiaz.github.io/stat430fa17/)]
     - Covers the entirety of [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/). I currently maintain an open-source supplemental textbook, [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/) which focuses on using R to perform statistical learning techniques.
-- **STAT 510:** Mathematical Statistics [[**fa-20**](http://math-stat.org/)]
+- **STAT 510:** Mathematical Statistics [[**sp-21**](http://stat510.org/)] [[fa-20](http://math-stat.org/)]
 
 ## Ohio State University
 

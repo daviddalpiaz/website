@@ -51,14 +51,9 @@ Oh wait! Don't skip this step.
 
 Keep it short. Be direct. Mirror expectation
 
-
-
 - I saw this on r/professors (yeah, we have a little group_ https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087
 
-
-## Metadata {-}
+***
 
 - **Published:** Saturday, August 29, 2020
 - **Updated:** `r format(file.mtime("template.Rmd"), "%A, %B %d, %Y")`
-
-

@@ -90,7 +90,7 @@ Stated practically and with relevance to STAT 432:
 
 In summary, if you bring an open mind and a bit of effort, we believe that you will succeed in STAT 432. We don't believe that the course is easy, but we hope that it is ultimately rewarding.
 
-## Metadata {-}
+***
 
 - **Published:** Tuesday, August 18, 2020
 - **Updated:** `r format(file.mtime("ten-rules-stat-432.Rmd"), "%A, %B %d, %Y")`
