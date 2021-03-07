@@ -1,0 +1,173 @@
+---
+title: "An NSE Tax"
+output:
+  html_document:
+    highlight: default
+    css: style.css
+    includes:
+      in_header: html-header.html
+      after_body: html-footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, autodep = TRUE, cache.path = "cache/")
+```
+
+Recently I've been trying to understand NSE in R.
+
+```{r}
+`%>%` = magrittr::`%>%`
+```
+
+found this here: https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/
+
+```{r}
+compute_corr_1 <- function(data, var1, var2){
+  
+  # compute correlation ----
+  cor.test(
+    x = data %>% dplyr::pull({{var1}}),
+    y = data %>% dplyr::pull({{var2}})
+  ) %>% 
+    # tidy up results ----
+  broom::tidy() %>% 
+    # retain and rename relevant bits ----
+  dplyr::select(
+    correlation = estimate, 
+    pval = p.value
+  )
+  
+}
+```
+
+
+
+```{r}
+compute_corr_2 = function(data, var1, var2){
+  
+  results = cor.test(x = data[, var1], 
+                     y = data[, var2])
+  
+  data.frame(correlation = results$estimate, 
+             pval = results$p.value)
+  
+}
+```
+
+
+
+
+```{r}
+compute_corr_3 = function(data, var1, var2){
+  
+  cor.test(
+    x = data[, var1], 
+    y = data[, var2]
+  ) %>% 
+  broom::tidy() %>% 
+  dplyr::select(
+    correlation = estimate, 
+    pval = p.value
+  )
+  
+}
+```
+
+
+
+```{r}
+microbenchmark::microbenchmark(
+  compute_corr_1(cars, "dist", "speed"),
+  compute_corr_2(cars, "dist", "speed"),
+  compute_corr_3(cars, "dist", "speed"))
+```
+
+```{r}
+set.seed(42)
+some_data = data.frame(
+  x = rnorm(10),
+  y = rnorm(10)
+)
+```
+
+```{r}
+microbenchmark::microbenchmark(
+  compute_corr_1(some_data, "x", "y"),
+  compute_corr_2(some_data, "x", "y"),
+  compute_corr_3(some_data, "x", "y"))
+```
+
+- TODO: benchmark as a function of sample size
+- TODO: benchmark as a function of number of columns?
+
+```{r}
+df_to_vec_dplyr = function(data, var1, var2){
+  
+  x = data %>% dplyr::pull({{var1}})
+  y = data %>% dplyr::pull({{var2}})
+
+}
+
+df_to_vec_base = function(data, var1, var2){
+  
+  x = data[, var1]
+  y = data[, var2]
+  
+}
+
+df_to_vec_base2 = function(data, var1, var2){
+  
+  x = data$var1
+  y = data$var2
+  
+}
+
+df_to_vec_tidy_eval = function(data, var1, var2){
+  
+  x = rlang::eval_tidy(rlang::enquo(var1), data = data)
+  y = rlang::eval_tidy(rlang::enquo(var2), data = data)
+
+}
+
+microbenchmark::microbenchmark(
+  df_to_vec_dplyr(cars, dist, speed),
+  df_to_vec_base(cars, "dist", "speed"),
+  df_to_vec_base2(cars, "dist", "speed"),
+  df_to_vec_tidy_eval(cars, dist, speed))
+```
+
+
+
+```{r}
+set.seed(42)
+some_data = data.frame(
+  x = rnorm(100),
+  y = rnorm(100)
+)
+```
+
+```{r}
+microbenchmark::microbenchmark(
+  df_to_vec_dplyr(some_data, "x", "y"),
+  df_to_vec_base(some_data, "x", "y"))
+```
+
+
+
+```{r}
+microbenchmark::microbenchmark(
+  dplyr::pull(cars, "dist"),
+  dplyr::pull(cars, dist),
+  cars[, "dist"],
+  cars$dist
+)
+```
+
+
+
+- https://dplyr.tidyverse.org/articles/programming.html
+
+***
+
+- **Published:** Thursday, August 22, 2019
+- **Updated:** `r format(file.mtime("2021-03-06-nse-tax.Rmd"), "%A, %B %d, %Y")`

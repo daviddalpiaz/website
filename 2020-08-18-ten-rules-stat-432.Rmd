@@ -93,4 +93,4 @@ In summary, if you bring an open mind and a bit of effort, we believe that you w
 ***
 
 - **Published:** Tuesday, August 18, 2020
-- **Updated:** `r format(file.mtime("ten-rules-stat-432.Rmd"), "%A, %B %d, %Y")`
+- **Updated:** `r format(file.mtime("2020-08-18-ten-rules-stat-432.Rmd"), "%A, %B %d, %Y")`

@@ -2,11 +2,11 @@
 title: "Blog"
 ---
 
-This is a blog, but not a blog. Mostly it will be a collection of things that I've needed to write more than once in an email, especially for students. Dates listed are data of initial publication, but posts are routinely updated. Perhaps if I find myself generating enough content to make this a real blog, I'll make it a real blog.
+This is a blog, but not a blog. Mostly it will be a collection of things that I've needed to write more than once in an email, especially for students. Dates listed are date of initial publication, but posts are routinely updated. Perhaps if I find myself generating enough content to make this a real blog, I'll make it a real blog.
 
 ::: notes
 
-```{r child = 'blog-posts.Rmd'}
+```{r child = 'blog-posts'}
 ```
 
 :::

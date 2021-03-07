@@ -7,10 +7,10 @@ get_post_title = function(file) {
 }
 
 # get blog post filenames with full path
-original_blog_files = list.files("blog", full.names = TRUE)
+original_blog_files = list.files(pattern = "[0-9]+-[0-9]+-[0-9]", full.names = TRUE)
 
 # remove full path and date information
-filenames = stringr::str_sub(original_blog_files, start = 17)
+filenames = stringr::str_sub(original_blog_files, start = 14)
 
 # extract data information
 dates = stringr::str_extract(original_blog_files, pattern = "[0-9]+-[0-9]+-[0-9]+")
@@ -37,19 +37,24 @@ write_blog_html = function(data) {
 }
 
 # write lines to file
-file_conn = file("blog-posts.Rmd")
+file_conn = file("blog-posts")
 writeLines(stringr::str_c(sapply(blog_posts, write_blog_html)), file_conn)
 close(file_conn)
 
-# temporarily move "blog posts" to top level project directory
-# use modified names without dates
-file.copy(from = original_blog_files,to = filenames)
+# # temporarily move "blog posts" to top level project directory
+# # use modified names without dates
+# file.copy(from = original_blog_files, to = filenames)
 
 # render site
 rmarkdown::render_site(encoding = 'UTF-8')
 
-# remove "blog posts" from top level project directory
-file.remove(filenames)
+# # remove "blog posts" from top level project directory
+# file.remove(filenames)
+
+# remove date informaiton from URL slug
+rendered_blogs = list.files("public", pattern = "[0-9]+-[0-9]+-[0-9]", full.names = TRUE)
+rendered_blogs_no_date = stringr::str_remove(rendered_blogs, pattern = "[0-9]+-[0-9]+-[0-9]+-")
+file.rename(rendered_blogs, rendered_blogs_no_date)
 
 # preview
 system(paste(shQuote('open'), shQuote("public/index.html")), wait = FALSE, ignore.stderr = TRUE)
